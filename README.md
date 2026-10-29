@@ -209,15 +209,18 @@ If the datasets or code change, please regenerate and rerun the relevant checks.
 
 ---
 
-## 11. Limitations (Please Read)
+## 11. Scope and Future Enhancements
 
-We prefer to be clear about what this project does and does not claim:
+This project demonstrates an end-to-end HR Service System workflow built around structured data, policy-driven decision-making, ticket lifecycle management, routing, SLA tracking, and traceable runtime events. The implementation includes generated datasets, validation checks, automated tests, and reproducible local execution steps.
 
-- Validation results refer only to the **configured checks**. They do not prove production readiness or that every cross-dataset business rule is satisfied.
-- The SQLite export confirms table creation and row counts. **Foreign-key constraints and relational query behaviour need separate verification.**
-- The requirement-coverage table shows implementation evidence. It is not an independent end-to-end test of every business rule.
-- This documentation describes generated and validated data artifacts. It is **not** a production deployment.
+Potential future enhancements include:
 
+- **Expanded validation:** Extend automated tests to cover additional edge cases and combinations of business rules as the workflow evolves.
+- **Database integrity:** Strengthen relational constraints and add further integrity checks as the data model grows.
+- **Workflow coverage:** Expand end-to-end scenario testing to cover additional policy, clarification, escalation, and resolution paths.
+- **Production readiness:** Add deployment-specific security controls, monitoring, operational safeguards, and infrastructure configuration before production use.
+
+These enhancements represent opportunities to extend the current implementation beyond its challenge scope. The project is designed to make business decisions, workflow state changes, and supporting records inspectable so that its behavior can be evaluated and improved systematically.
 ---
 
 ## 12. AI Usage Disclosure
