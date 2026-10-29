@@ -219,8 +219,6 @@ Potential future enhancements include:
 - **Database integrity:** Strengthen relational constraints and add further integrity checks as the data model grows.
 - **Workflow coverage:** Expand end-to-end scenario testing to cover additional policy, clarification, escalation, and resolution paths.
 - **Production readiness:** Add deployment-specific security controls, monitoring, operational safeguards, and infrastructure configuration before production use.
-
-These enhancements represent opportunities to extend the current implementation beyond its challenge scope. The project is designed to make business decisions, workflow state changes, and supporting records inspectable so that its behavior can be evaluated and improved systematically.
 ---
 
 ## 12. AI Usage Disclosure
