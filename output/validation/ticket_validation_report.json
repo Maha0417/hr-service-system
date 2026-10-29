@@ -1,0 +1,17 @@
+{
+    "validation_status": "PASS",
+    "validated_at_utc": "2026-10-29T07:15:30.030912+00:00",
+    "ticket_count": 5000,
+    "checks": {
+        "duplicate_ticket_ids": 0,
+        "invalid_ticket_id_formats": 0,
+        "invalid_employee_foreign_keys": 0,
+        "invalid_category_foreign_keys": 0,
+        "invalid_policy_foreign_keys": 0,
+        "invalid_priorities": 0,
+        "invalid_statuses": 0,
+        "policy_category_errors": 0,
+        "sensitive_rule_errors": 0,
+        "clarification_rule_errors": 0
+    }
+}

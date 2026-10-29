@@ -1,0 +1,37 @@
+[
+  {
+    "category_id":"CAT-001",
+    "category_name":"Benefits",
+    "sensitive_flag":"N",
+    "default_queue":"BENEFITS_TEAM",
+    "active_flag":"Y"
+  },
+  {
+    "category_id":"CAT-002",
+    "category_name":"Leave",
+    "sensitive_flag":"N",
+    "default_queue":"LEAVE_TEAM",
+    "active_flag":"Y"
+  },
+  {
+    "category_id":"CAT-003",
+    "category_name":"Payroll",
+    "sensitive_flag":"N",
+    "default_queue":"PAYROLL_TEAM",
+    "active_flag":"Y"
+  },
+  {
+    "category_id":"CAT-004",
+    "category_name":"Onboarding",
+    "sensitive_flag":"N",
+    "default_queue":"ONBOARDING_TEAM",
+    "active_flag":"Y"
+  },
+  {
+    "category_id":"CAT-005",
+    "category_name":"Employee Relations",
+    "sensitive_flag":"Y",
+    "default_queue":"HR_PARTNER",
+    "active_flag":"Y"
+  }
+]

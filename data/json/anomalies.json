@@ -1,0 +1,2002 @@
+[
+  {
+    "anomaly_id":"ANOM-001",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000001",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-011-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-011-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000001"
+  },
+  {
+    "anomaly_id":"ANOM-002",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000002",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-047-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-047-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000002"
+  },
+  {
+    "anomaly_id":"ANOM-003",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000003",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-010-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-010-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000003"
+  },
+  {
+    "anomaly_id":"ANOM-004",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000004",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-003-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-003-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000004"
+  },
+  {
+    "anomaly_id":"ANOM-005",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000005",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-025-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-025-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000005"
+  },
+  {
+    "anomaly_id":"ANOM-006",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000006",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-012-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-012-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000006"
+  },
+  {
+    "anomaly_id":"ANOM-007",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000007",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-042-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-042-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000007"
+  },
+  {
+    "anomaly_id":"ANOM-008",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000008",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-008-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-008-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000008"
+  },
+  {
+    "anomaly_id":"ANOM-009",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000009",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-005-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-005-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000009"
+  },
+  {
+    "anomaly_id":"ANOM-010",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000010",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-002-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-002-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000010"
+  },
+  {
+    "anomaly_id":"ANOM-011",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000011",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-012-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-012-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000011"
+  },
+  {
+    "anomaly_id":"ANOM-012",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000012",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-011-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-011-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000012"
+  },
+  {
+    "anomaly_id":"ANOM-013",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000013",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-048-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-048-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000013"
+  },
+  {
+    "anomaly_id":"ANOM-014",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000014",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-003-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-003-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000014"
+  },
+  {
+    "anomaly_id":"ANOM-015",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000015",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-035-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-035-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000015"
+  },
+  {
+    "anomaly_id":"ANOM-016",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000016",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-049-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-049-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000016"
+  },
+  {
+    "anomaly_id":"ANOM-017",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000017",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-004-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-004-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000017"
+  },
+  {
+    "anomaly_id":"ANOM-018",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000018",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-036-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-036-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000018"
+  },
+  {
+    "anomaly_id":"ANOM-019",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000019",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-044-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-044-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000019"
+  },
+  {
+    "anomaly_id":"ANOM-020",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000020",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-045-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-045-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000020"
+  },
+  {
+    "anomaly_id":"ANOM-021",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000021",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-002-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-002-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000021"
+  },
+  {
+    "anomaly_id":"ANOM-022",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000022",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-013-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-013-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000022"
+  },
+  {
+    "anomaly_id":"ANOM-023",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000023",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-002-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-002-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000023"
+  },
+  {
+    "anomaly_id":"ANOM-024",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000024",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-035-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-035-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000024"
+  },
+  {
+    "anomaly_id":"ANOM-025",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000025",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-002-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-002-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000025"
+  },
+  {
+    "anomaly_id":"ANOM-026",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000026",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-026-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-026-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000026"
+  },
+  {
+    "anomaly_id":"ANOM-027",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000027",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-013-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-013-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000027"
+  },
+  {
+    "anomaly_id":"ANOM-028",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000028",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-014-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-014-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000028"
+  },
+  {
+    "anomaly_id":"ANOM-029",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000029",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-048-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-048-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000029"
+  },
+  {
+    "anomaly_id":"ANOM-030",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000030",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-003-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-003-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000030"
+  },
+  {
+    "anomaly_id":"ANOM-031",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000031",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-029-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-029-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000031"
+  },
+  {
+    "anomaly_id":"ANOM-032",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000032",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-027-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-027-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000032"
+  },
+  {
+    "anomaly_id":"ANOM-033",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000033",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-009-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-009-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000033"
+  },
+  {
+    "anomaly_id":"ANOM-034",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000034",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-003-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-003-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000034"
+  },
+  {
+    "anomaly_id":"ANOM-035",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000035",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-036-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-036-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000035"
+  },
+  {
+    "anomaly_id":"ANOM-036",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000036",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-013-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-013-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000036"
+  },
+  {
+    "anomaly_id":"ANOM-037",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000037",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-036-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-036-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000037"
+  },
+  {
+    "anomaly_id":"ANOM-038",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000038",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-026-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-026-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000038"
+  },
+  {
+    "anomaly_id":"ANOM-039",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000039",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-012-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-012-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000039"
+  },
+  {
+    "anomaly_id":"ANOM-040",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000040",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-003-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-003-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000040"
+  },
+  {
+    "anomaly_id":"ANOM-041",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000041",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-045-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-045-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000041"
+  },
+  {
+    "anomaly_id":"ANOM-042",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000042",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-048-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-048-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000042"
+  },
+  {
+    "anomaly_id":"ANOM-043",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000043",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-007-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-007-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000043"
+  },
+  {
+    "anomaly_id":"ANOM-044",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000044",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-028-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-028-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000044"
+  },
+  {
+    "anomaly_id":"ANOM-045",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000045",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-035-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-035-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000045"
+  },
+  {
+    "anomaly_id":"ANOM-046",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000046",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-005-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-005-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000046"
+  },
+  {
+    "anomaly_id":"ANOM-047",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000047",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-043-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-043-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000047"
+  },
+  {
+    "anomaly_id":"ANOM-048",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000048",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-014-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-014-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000048"
+  },
+  {
+    "anomaly_id":"ANOM-049",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000049",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-004-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-004-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000049"
+  },
+  {
+    "anomaly_id":"ANOM-050",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000050",
+    "issue_type":"obsolete_policy_reference",
+    "expected_outcome":"Reference current policy version VER-POL-HR-2026-036-03.",
+    "actual_outcome":"Incorrectly reference expired policy version VER-POL-HR-2026-036-01.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000050"
+  },
+  {
+    "anomaly_id":"ANOM-051",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000002",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000002"
+  },
+  {
+    "anomaly_id":"ANOM-052",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000005",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000005"
+  },
+  {
+    "anomaly_id":"ANOM-053",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000013",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000013"
+  },
+  {
+    "anomaly_id":"ANOM-054",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000016",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000016"
+  },
+  {
+    "anomaly_id":"ANOM-055",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000026",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000026"
+  },
+  {
+    "anomaly_id":"ANOM-056",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000029",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000029"
+  },
+  {
+    "anomaly_id":"ANOM-057",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000031",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000031"
+  },
+  {
+    "anomaly_id":"ANOM-058",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000032",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000032"
+  },
+  {
+    "anomaly_id":"ANOM-059",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000038",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000038"
+  },
+  {
+    "anomaly_id":"ANOM-060",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000042",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000042"
+  },
+  {
+    "anomaly_id":"ANOM-061",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000044",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000044"
+  },
+  {
+    "anomaly_id":"ANOM-062",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000057",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000057"
+  },
+  {
+    "anomaly_id":"ANOM-063",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000060",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000060"
+  },
+  {
+    "anomaly_id":"ANOM-064",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000063",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000063"
+  },
+  {
+    "anomaly_id":"ANOM-065",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000064",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000064"
+  },
+  {
+    "anomaly_id":"ANOM-066",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000070",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000070"
+  },
+  {
+    "anomaly_id":"ANOM-067",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000073",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000073"
+  },
+  {
+    "anomaly_id":"ANOM-068",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000074",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000074"
+  },
+  {
+    "anomaly_id":"ANOM-069",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000076",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000076"
+  },
+  {
+    "anomaly_id":"ANOM-070",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000082",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000082"
+  },
+  {
+    "anomaly_id":"ANOM-071",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000085",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000085"
+  },
+  {
+    "anomaly_id":"ANOM-072",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000096",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000096"
+  },
+  {
+    "anomaly_id":"ANOM-073",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000098",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000098"
+  },
+  {
+    "anomaly_id":"ANOM-074",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000102",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000102"
+  },
+  {
+    "anomaly_id":"ANOM-075",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000104",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000104"
+  },
+  {
+    "anomaly_id":"ANOM-076",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000105",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000105"
+  },
+  {
+    "anomaly_id":"ANOM-077",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000107",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000107"
+  },
+  {
+    "anomaly_id":"ANOM-078",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000114",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000114"
+  },
+  {
+    "anomaly_id":"ANOM-079",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000119",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000119"
+  },
+  {
+    "anomaly_id":"ANOM-080",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000122",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000122"
+  },
+  {
+    "anomaly_id":"ANOM-081",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000123",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000123"
+  },
+  {
+    "anomaly_id":"ANOM-082",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000125",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000125"
+  },
+  {
+    "anomaly_id":"ANOM-083",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000126",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000126"
+  },
+  {
+    "anomaly_id":"ANOM-084",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000130",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000130"
+  },
+  {
+    "anomaly_id":"ANOM-085",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000134",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000134"
+  },
+  {
+    "anomaly_id":"ANOM-086",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000136",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000136"
+  },
+  {
+    "anomaly_id":"ANOM-087",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000137",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000137"
+  },
+  {
+    "anomaly_id":"ANOM-088",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000140",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000140"
+  },
+  {
+    "anomaly_id":"ANOM-089",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000146",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000146"
+  },
+  {
+    "anomaly_id":"ANOM-090",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000147",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000147"
+  },
+  {
+    "anomaly_id":"ANOM-091",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000149",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000149"
+  },
+  {
+    "anomaly_id":"ANOM-092",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000156",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000156"
+  },
+  {
+    "anomaly_id":"ANOM-093",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000160",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000160"
+  },
+  {
+    "anomaly_id":"ANOM-094",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000162",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000162"
+  },
+  {
+    "anomaly_id":"ANOM-095",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000163",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000163"
+  },
+  {
+    "anomaly_id":"ANOM-096",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000164",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000164"
+  },
+  {
+    "anomaly_id":"ANOM-097",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000165",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000165"
+  },
+  {
+    "anomaly_id":"ANOM-098",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000182",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000182"
+  },
+  {
+    "anomaly_id":"ANOM-099",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000183",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000183"
+  },
+  {
+    "anomaly_id":"ANOM-100",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000187",
+    "issue_type":"sensitive_case_routed_general_queue",
+    "expected_outcome":"Route the sensitive case to HR_PARTNER.",
+    "actual_outcome":"Incorrectly route the sensitive case to BENEFITS_TEAM, a general queue.",
+    "severity":"CRITICAL",
+    "ground_truth_id":"GT-TKT-2026-000187"
+  },
+  {
+    "anomaly_id":"ANOM-101",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000001",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000001"
+  },
+  {
+    "anomaly_id":"ANOM-102",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000002",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000002"
+  },
+  {
+    "anomaly_id":"ANOM-103",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000003",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000003"
+  },
+  {
+    "anomaly_id":"ANOM-104",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000004",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000004"
+  },
+  {
+    "anomaly_id":"ANOM-105",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000005",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000005"
+  },
+  {
+    "anomaly_id":"ANOM-106",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000006",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000006"
+  },
+  {
+    "anomaly_id":"ANOM-107",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000007",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000007"
+  },
+  {
+    "anomaly_id":"ANOM-108",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000008",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000008"
+  },
+  {
+    "anomaly_id":"ANOM-109",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000009",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000009"
+  },
+  {
+    "anomaly_id":"ANOM-110",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000010",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000010"
+  },
+  {
+    "anomaly_id":"ANOM-111",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000011",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000011"
+  },
+  {
+    "anomaly_id":"ANOM-112",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000012",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000012"
+  },
+  {
+    "anomaly_id":"ANOM-113",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000013",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000013"
+  },
+  {
+    "anomaly_id":"ANOM-114",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000014",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000014"
+  },
+  {
+    "anomaly_id":"ANOM-115",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000015",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000015"
+  },
+  {
+    "anomaly_id":"ANOM-116",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000016",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000016"
+  },
+  {
+    "anomaly_id":"ANOM-117",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000017",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000017"
+  },
+  {
+    "anomaly_id":"ANOM-118",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000018",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000018"
+  },
+  {
+    "anomaly_id":"ANOM-119",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000019",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000019"
+  },
+  {
+    "anomaly_id":"ANOM-120",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000020",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000020"
+  },
+  {
+    "anomaly_id":"ANOM-121",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000021",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000021"
+  },
+  {
+    "anomaly_id":"ANOM-122",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000022",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000022"
+  },
+  {
+    "anomaly_id":"ANOM-123",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000023",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000023"
+  },
+  {
+    "anomaly_id":"ANOM-124",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000024",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000024"
+  },
+  {
+    "anomaly_id":"ANOM-125",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000025",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000025"
+  },
+  {
+    "anomaly_id":"ANOM-126",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000026",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000026"
+  },
+  {
+    "anomaly_id":"ANOM-127",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000027",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000027"
+  },
+  {
+    "anomaly_id":"ANOM-128",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000028",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000028"
+  },
+  {
+    "anomaly_id":"ANOM-129",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000029",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000029"
+  },
+  {
+    "anomaly_id":"ANOM-130",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000030",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000030"
+  },
+  {
+    "anomaly_id":"ANOM-131",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000031",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000031"
+  },
+  {
+    "anomaly_id":"ANOM-132",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000032",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000032"
+  },
+  {
+    "anomaly_id":"ANOM-133",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000033",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000033"
+  },
+  {
+    "anomaly_id":"ANOM-134",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000034",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000034"
+  },
+  {
+    "anomaly_id":"ANOM-135",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000035",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000035"
+  },
+  {
+    "anomaly_id":"ANOM-136",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000036",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000036"
+  },
+  {
+    "anomaly_id":"ANOM-137",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000037",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000037"
+  },
+  {
+    "anomaly_id":"ANOM-138",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000038",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000038"
+  },
+  {
+    "anomaly_id":"ANOM-139",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000039",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000039"
+  },
+  {
+    "anomaly_id":"ANOM-140",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000040",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000040"
+  },
+  {
+    "anomaly_id":"ANOM-141",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000041",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000041"
+  },
+  {
+    "anomaly_id":"ANOM-142",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000042",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000042"
+  },
+  {
+    "anomaly_id":"ANOM-143",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000043",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000043"
+  },
+  {
+    "anomaly_id":"ANOM-144",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000044",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000044"
+  },
+  {
+    "anomaly_id":"ANOM-145",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000045",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000045"
+  },
+  {
+    "anomaly_id":"ANOM-146",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000046",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000046"
+  },
+  {
+    "anomaly_id":"ANOM-147",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000047",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000047"
+  },
+  {
+    "anomaly_id":"ANOM-148",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000048",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000048"
+  },
+  {
+    "anomaly_id":"ANOM-149",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000049",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000049"
+  },
+  {
+    "anomaly_id":"ANOM-150",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000050",
+    "issue_type":"sla_business_hours_error",
+    "expected_outcome":"Count all elapsed hours, including non-business hours, under the configured SLA rule.",
+    "actual_outcome":"Incorrectly exclude non-business hours even though business_hours_only is False.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000050"
+  },
+  {
+    "anomaly_id":"ANOM-151",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000001",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-011-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000001"
+  },
+  {
+    "anomaly_id":"ANOM-152",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000002",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-047-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000002"
+  },
+  {
+    "anomaly_id":"ANOM-153",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000003",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-010-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000003"
+  },
+  {
+    "anomaly_id":"ANOM-154",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000004",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-003-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000004"
+  },
+  {
+    "anomaly_id":"ANOM-155",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000005",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-025-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000005"
+  },
+  {
+    "anomaly_id":"ANOM-156",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000006",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-012-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000006"
+  },
+  {
+    "anomaly_id":"ANOM-157",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000007",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-042-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000007"
+  },
+  {
+    "anomaly_id":"ANOM-158",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000008",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-008-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000008"
+  },
+  {
+    "anomaly_id":"ANOM-159",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000009",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-005-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000009"
+  },
+  {
+    "anomaly_id":"ANOM-160",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000010",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-002-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000010"
+  },
+  {
+    "anomaly_id":"ANOM-161",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000011",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-012-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000011"
+  },
+  {
+    "anomaly_id":"ANOM-162",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000012",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-011-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000012"
+  },
+  {
+    "anomaly_id":"ANOM-163",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000013",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-048-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000013"
+  },
+  {
+    "anomaly_id":"ANOM-164",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000014",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-003-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000014"
+  },
+  {
+    "anomaly_id":"ANOM-165",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000015",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-035-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000015"
+  },
+  {
+    "anomaly_id":"ANOM-166",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000016",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-049-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000016"
+  },
+  {
+    "anomaly_id":"ANOM-167",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000017",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-004-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000017"
+  },
+  {
+    "anomaly_id":"ANOM-168",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000018",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-036-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000018"
+  },
+  {
+    "anomaly_id":"ANOM-169",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000019",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-044-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000019"
+  },
+  {
+    "anomaly_id":"ANOM-170",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000020",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-045-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000020"
+  },
+  {
+    "anomaly_id":"ANOM-171",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000021",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-002-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000021"
+  },
+  {
+    "anomaly_id":"ANOM-172",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000022",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-013-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000022"
+  },
+  {
+    "anomaly_id":"ANOM-173",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000023",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-002-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000023"
+  },
+  {
+    "anomaly_id":"ANOM-174",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000024",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-035-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000024"
+  },
+  {
+    "anomaly_id":"ANOM-175",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000025",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-002-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000025"
+  },
+  {
+    "anomaly_id":"ANOM-176",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000026",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-026-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000026"
+  },
+  {
+    "anomaly_id":"ANOM-177",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000027",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-013-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000027"
+  },
+  {
+    "anomaly_id":"ANOM-178",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000028",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-014-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000028"
+  },
+  {
+    "anomaly_id":"ANOM-179",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000029",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-048-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000029"
+  },
+  {
+    "anomaly_id":"ANOM-180",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000030",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-003-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000030"
+  },
+  {
+    "anomaly_id":"ANOM-181",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000031",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-029-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000031"
+  },
+  {
+    "anomaly_id":"ANOM-182",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000032",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-027-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000032"
+  },
+  {
+    "anomaly_id":"ANOM-183",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000033",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-009-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000033"
+  },
+  {
+    "anomaly_id":"ANOM-184",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000034",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-003-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000034"
+  },
+  {
+    "anomaly_id":"ANOM-185",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000035",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-036-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000035"
+  },
+  {
+    "anomaly_id":"ANOM-186",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000036",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-013-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000036"
+  },
+  {
+    "anomaly_id":"ANOM-187",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000037",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-036-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000037"
+  },
+  {
+    "anomaly_id":"ANOM-188",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000038",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-026-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000038"
+  },
+  {
+    "anomaly_id":"ANOM-189",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000039",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-012-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000039"
+  },
+  {
+    "anomaly_id":"ANOM-190",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000040",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-003-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000040"
+  },
+  {
+    "anomaly_id":"ANOM-191",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000041",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-045-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000041"
+  },
+  {
+    "anomaly_id":"ANOM-192",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000042",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-048-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000042"
+  },
+  {
+    "anomaly_id":"ANOM-193",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000043",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-007-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000043"
+  },
+  {
+    "anomaly_id":"ANOM-194",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000044",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-028-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000044"
+  },
+  {
+    "anomaly_id":"ANOM-195",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000045",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-035-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000045"
+  },
+  {
+    "anomaly_id":"ANOM-196",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000046",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-005-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000046"
+  },
+  {
+    "anomaly_id":"ANOM-197",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000047",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-043-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000047"
+  },
+  {
+    "anomaly_id":"ANOM-198",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000048",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-014-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000048"
+  },
+  {
+    "anomaly_id":"ANOM-199",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000049",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-004-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000049"
+  },
+  {
+    "anomaly_id":"ANOM-200",
+    "entity_type":"TICKET",
+    "entity_id":"TKT-2026-000050",
+    "issue_type":"unsupported_claim",
+    "expected_outcome":"Only state entitlements supported by current policy version VER-POL-HR-2026-036-03, with evidence.",
+    "actual_outcome":"Assert an additional employee benefit as fact without a supporting policy citation.",
+    "severity":"HIGH",
+    "ground_truth_id":"GT-TKT-2026-000050"
+  }
+]

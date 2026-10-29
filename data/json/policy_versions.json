@@ -1,0 +1,1502 @@
+[
+  {
+    "version_id":"VER-POL-HR-2026-001-01",
+    "policy_id":"POL-HR-2026-001",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-001-02",
+    "policy_id":"POL-HR-2026-001",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-001-03",
+    "policy_id":"POL-HR-2026-001",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-002-01",
+    "policy_id":"POL-HR-2026-002",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-002-02",
+    "policy_id":"POL-HR-2026-002",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-002-03",
+    "policy_id":"POL-HR-2026-002",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-003-01",
+    "policy_id":"POL-HR-2026-003",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-003-02",
+    "policy_id":"POL-HR-2026-003",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-003-03",
+    "policy_id":"POL-HR-2026-003",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-004-01",
+    "policy_id":"POL-HR-2026-004",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-004-02",
+    "policy_id":"POL-HR-2026-004",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-004-03",
+    "policy_id":"POL-HR-2026-004",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-005-01",
+    "policy_id":"POL-HR-2026-005",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-005-02",
+    "policy_id":"POL-HR-2026-005",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-005-03",
+    "policy_id":"POL-HR-2026-005",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-006-01",
+    "policy_id":"POL-HR-2026-006",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-006-02",
+    "policy_id":"POL-HR-2026-006",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-006-03",
+    "policy_id":"POL-HR-2026-006",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-007-01",
+    "policy_id":"POL-HR-2026-007",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-007-02",
+    "policy_id":"POL-HR-2026-007",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-007-03",
+    "policy_id":"POL-HR-2026-007",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-008-01",
+    "policy_id":"POL-HR-2026-008",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-008-02",
+    "policy_id":"POL-HR-2026-008",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-008-03",
+    "policy_id":"POL-HR-2026-008",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-009-01",
+    "policy_id":"POL-HR-2026-009",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-009-02",
+    "policy_id":"POL-HR-2026-009",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-009-03",
+    "policy_id":"POL-HR-2026-009",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-010-01",
+    "policy_id":"POL-HR-2026-010",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-010-02",
+    "policy_id":"POL-HR-2026-010",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-010-03",
+    "policy_id":"POL-HR-2026-010",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-011-01",
+    "policy_id":"POL-HR-2026-011",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-011-02",
+    "policy_id":"POL-HR-2026-011",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-011-03",
+    "policy_id":"POL-HR-2026-011",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-012-01",
+    "policy_id":"POL-HR-2026-012",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-012-02",
+    "policy_id":"POL-HR-2026-012",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-012-03",
+    "policy_id":"POL-HR-2026-012",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-013-01",
+    "policy_id":"POL-HR-2026-013",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-013-02",
+    "policy_id":"POL-HR-2026-013",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-013-03",
+    "policy_id":"POL-HR-2026-013",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-014-01",
+    "policy_id":"POL-HR-2026-014",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-014-02",
+    "policy_id":"POL-HR-2026-014",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-014-03",
+    "policy_id":"POL-HR-2026-014",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-015-01",
+    "policy_id":"POL-HR-2026-015",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-015-02",
+    "policy_id":"POL-HR-2026-015",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-015-03",
+    "policy_id":"POL-HR-2026-015",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-016-01",
+    "policy_id":"POL-HR-2026-016",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-016-02",
+    "policy_id":"POL-HR-2026-016",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-016-03",
+    "policy_id":"POL-HR-2026-016",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-017-01",
+    "policy_id":"POL-HR-2026-017",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-017-02",
+    "policy_id":"POL-HR-2026-017",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-017-03",
+    "policy_id":"POL-HR-2026-017",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-018-01",
+    "policy_id":"POL-HR-2026-018",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-018-02",
+    "policy_id":"POL-HR-2026-018",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-018-03",
+    "policy_id":"POL-HR-2026-018",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-019-01",
+    "policy_id":"POL-HR-2026-019",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-019-02",
+    "policy_id":"POL-HR-2026-019",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-019-03",
+    "policy_id":"POL-HR-2026-019",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-020-01",
+    "policy_id":"POL-HR-2026-020",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-020-02",
+    "policy_id":"POL-HR-2026-020",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-020-03",
+    "policy_id":"POL-HR-2026-020",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-021-01",
+    "policy_id":"POL-HR-2026-021",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-021-02",
+    "policy_id":"POL-HR-2026-021",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-021-03",
+    "policy_id":"POL-HR-2026-021",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-022-01",
+    "policy_id":"POL-HR-2026-022",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-022-02",
+    "policy_id":"POL-HR-2026-022",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-022-03",
+    "policy_id":"POL-HR-2026-022",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-023-01",
+    "policy_id":"POL-HR-2026-023",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-023-02",
+    "policy_id":"POL-HR-2026-023",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-023-03",
+    "policy_id":"POL-HR-2026-023",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-024-01",
+    "policy_id":"POL-HR-2026-024",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-024-02",
+    "policy_id":"POL-HR-2026-024",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-024-03",
+    "policy_id":"POL-HR-2026-024",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-025-01",
+    "policy_id":"POL-HR-2026-025",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-025-02",
+    "policy_id":"POL-HR-2026-025",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-025-03",
+    "policy_id":"POL-HR-2026-025",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-026-01",
+    "policy_id":"POL-HR-2026-026",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-026-02",
+    "policy_id":"POL-HR-2026-026",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-026-03",
+    "policy_id":"POL-HR-2026-026",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-027-01",
+    "policy_id":"POL-HR-2026-027",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-027-02",
+    "policy_id":"POL-HR-2026-027",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-027-03",
+    "policy_id":"POL-HR-2026-027",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-028-01",
+    "policy_id":"POL-HR-2026-028",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-028-02",
+    "policy_id":"POL-HR-2026-028",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-028-03",
+    "policy_id":"POL-HR-2026-028",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-029-01",
+    "policy_id":"POL-HR-2026-029",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-029-02",
+    "policy_id":"POL-HR-2026-029",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-029-03",
+    "policy_id":"POL-HR-2026-029",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-030-01",
+    "policy_id":"POL-HR-2026-030",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-030-02",
+    "policy_id":"POL-HR-2026-030",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-030-03",
+    "policy_id":"POL-HR-2026-030",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-031-01",
+    "policy_id":"POL-HR-2026-031",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-031-02",
+    "policy_id":"POL-HR-2026-031",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-031-03",
+    "policy_id":"POL-HR-2026-031",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-032-01",
+    "policy_id":"POL-HR-2026-032",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-032-02",
+    "policy_id":"POL-HR-2026-032",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-032-03",
+    "policy_id":"POL-HR-2026-032",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-033-01",
+    "policy_id":"POL-HR-2026-033",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-033-02",
+    "policy_id":"POL-HR-2026-033",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-033-03",
+    "policy_id":"POL-HR-2026-033",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-034-01",
+    "policy_id":"POL-HR-2026-034",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-034-02",
+    "policy_id":"POL-HR-2026-034",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-034-03",
+    "policy_id":"POL-HR-2026-034",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-035-01",
+    "policy_id":"POL-HR-2026-035",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-035-02",
+    "policy_id":"POL-HR-2026-035",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-035-03",
+    "policy_id":"POL-HR-2026-035",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-036-01",
+    "policy_id":"POL-HR-2026-036",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-036-02",
+    "policy_id":"POL-HR-2026-036",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-036-03",
+    "policy_id":"POL-HR-2026-036",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-037-01",
+    "policy_id":"POL-HR-2026-037",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-037-02",
+    "policy_id":"POL-HR-2026-037",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-037-03",
+    "policy_id":"POL-HR-2026-037",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-038-01",
+    "policy_id":"POL-HR-2026-038",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-038-02",
+    "policy_id":"POL-HR-2026-038",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-038-03",
+    "policy_id":"POL-HR-2026-038",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-039-01",
+    "policy_id":"POL-HR-2026-039",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-039-02",
+    "policy_id":"POL-HR-2026-039",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-039-03",
+    "policy_id":"POL-HR-2026-039",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-040-01",
+    "policy_id":"POL-HR-2026-040",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-040-02",
+    "policy_id":"POL-HR-2026-040",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-040-03",
+    "policy_id":"POL-HR-2026-040",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-041-01",
+    "policy_id":"POL-HR-2026-041",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-041-02",
+    "policy_id":"POL-HR-2026-041",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-041-03",
+    "policy_id":"POL-HR-2026-041",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-042-01",
+    "policy_id":"POL-HR-2026-042",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-042-02",
+    "policy_id":"POL-HR-2026-042",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-042-03",
+    "policy_id":"POL-HR-2026-042",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-043-01",
+    "policy_id":"POL-HR-2026-043",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-043-02",
+    "policy_id":"POL-HR-2026-043",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-043-03",
+    "policy_id":"POL-HR-2026-043",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-044-01",
+    "policy_id":"POL-HR-2026-044",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-044-02",
+    "policy_id":"POL-HR-2026-044",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-044-03",
+    "policy_id":"POL-HR-2026-044",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-045-01",
+    "policy_id":"POL-HR-2026-045",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-045-02",
+    "policy_id":"POL-HR-2026-045",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-045-03",
+    "policy_id":"POL-HR-2026-045",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-046-01",
+    "policy_id":"POL-HR-2026-046",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-046-02",
+    "policy_id":"POL-HR-2026-046",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-046-03",
+    "policy_id":"POL-HR-2026-046",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-047-01",
+    "policy_id":"POL-HR-2026-047",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-047-02",
+    "policy_id":"POL-HR-2026-047",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-047-03",
+    "policy_id":"POL-HR-2026-047",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-048-01",
+    "policy_id":"POL-HR-2026-048",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-048-02",
+    "policy_id":"POL-HR-2026-048",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-048-03",
+    "policy_id":"POL-HR-2026-048",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-049-01",
+    "policy_id":"POL-HR-2026-049",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-049-02",
+    "policy_id":"POL-HR-2026-049",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-049-03",
+    "policy_id":"POL-HR-2026-049",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-050-01",
+    "policy_id":"POL-HR-2026-050",
+    "version_number":"1",
+    "effective_date":"2024-01-01",
+    "expiration_date":"2024-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Initial policy version"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-050-02",
+    "policy_id":"POL-HR-2026-050",
+    "version_number":"2",
+    "effective_date":"2025-01-01",
+    "expiration_date":"2025-12-31",
+    "is_current":"False",
+    "status":"EXPIRED",
+    "change_summary":"Policy updated with revised guidelines"
+  },
+  {
+    "version_id":"VER-POL-HR-2026-050-03",
+    "policy_id":"POL-HR-2026-050",
+    "version_number":"3",
+    "effective_date":"2026-01-01",
+    "expiration_date":"",
+    "is_current":"True",
+    "status":"CURRENT",
+    "change_summary":"Current policy version with updated rules"
+  }
+]

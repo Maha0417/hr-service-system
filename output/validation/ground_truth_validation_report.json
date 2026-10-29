@@ -1,0 +1,80 @@
+{
+    "dataset": "ground_truth.csv",
+    "records_checked": 5000,
+    "total_checks": 14,
+    "passed_checks": 14,
+    "failed_checks": 0,
+    "overall_status": "PASS",
+    "checks": [
+        {
+            "check": "required_columns",
+            "status": "PASS",
+            "details": "Missing columns: []"
+        },
+        {
+            "check": "one_record_per_ticket",
+            "status": "PASS",
+            "details": "Ground-truth records: 5000; tickets: 5000. Expected exactly one record per ticket."
+        },
+        {
+            "check": "ground_truth_ids_unique",
+            "status": "PASS",
+            "details": "Ground-truth IDs must be nonblank and unique."
+        },
+        {
+            "check": "ticket_ids_unique",
+            "status": "PASS",
+            "details": "Each ticket must have one ground-truth record."
+        },
+        {
+            "check": "valid_ticket_references",
+            "status": "PASS",
+            "details": "Unknown IDs: []; missing IDs: []"
+        },
+        {
+            "check": "entity_type_is_ticket",
+            "status": "PASS",
+            "details": "All baseline entity types must be TICKET."
+        },
+        {
+            "check": "routes_match_workflow_rules",
+            "status": "PASS",
+            "details": "Mismatched ticket IDs: []"
+        },
+        {
+            "check": "categories_match_source",
+            "status": "PASS",
+            "details": "Mismatched ticket IDs: []"
+        },
+        {
+            "check": "expected_policy_versions_exist_and_are_current",
+            "status": "PASS",
+            "details": "Mismatched ticket IDs: []; policies with multiple current versions: []"
+        },
+        {
+            "check": "valid_resolution_statuses",
+            "status": "PASS",
+            "details": "Mismatched ticket IDs: []"
+        },
+        {
+            "check": "expected_sla_status_matches_business_rules",
+            "status": "PASS",
+            "details": "Mismatched ticket IDs: []; tickets with multiple resolution messages: []"
+        },
+        {
+            "check": "clarification_matches_workflow_rules",
+            "status": "PASS",
+            "details": "Mismatched ticket IDs: []"
+        },
+        {
+            "check": "issue_type_matches_source",
+            "status": "PASS",
+            "details": "Mismatched ticket IDs: []"
+        },
+        {
+            "check": "severity_matches_source_priority",
+            "status": "PASS",
+            "details": "Mismatched ticket IDs: []"
+        }
+    ]
+}

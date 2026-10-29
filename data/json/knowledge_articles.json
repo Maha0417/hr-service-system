@@ -1,0 +1,1352 @@
+[
+  {
+    "article_id":"KA-POL-HR-2026-001-01",
+    "policy_id":"POL-HR-2026-001",
+    "article_title":"Annual Leave Policy - Overview",
+    "article_type":"Overview",
+    "category":"Leave",
+    "content":"The Annual Leave Policy defines the general guidelines, eligibility requirements, and responsibilities related to leave.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-001-02",
+    "policy_id":"POL-HR-2026-001",
+    "article_title":"Annual Leave Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Leave",
+    "content":"Employees should review the Annual Leave Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-001-03",
+    "policy_id":"POL-HR-2026-001",
+    "article_title":"Annual Leave Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Leave",
+    "content":"For questions regarding the Annual Leave Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-002-01",
+    "policy_id":"POL-HR-2026-002",
+    "article_title":"Sick Leave Policy - Overview",
+    "article_type":"Overview",
+    "category":"Leave",
+    "content":"The Sick Leave Policy defines the general guidelines, eligibility requirements, and responsibilities related to leave.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-002-02",
+    "policy_id":"POL-HR-2026-002",
+    "article_title":"Sick Leave Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Leave",
+    "content":"Employees should review the Sick Leave Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-002-03",
+    "policy_id":"POL-HR-2026-002",
+    "article_title":"Sick Leave Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Leave",
+    "content":"For questions regarding the Sick Leave Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-003-01",
+    "policy_id":"POL-HR-2026-003",
+    "article_title":"Parental Leave Policy - Overview",
+    "article_type":"Overview",
+    "category":"Leave",
+    "content":"The Parental Leave Policy defines the general guidelines, eligibility requirements, and responsibilities related to leave.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-003-02",
+    "policy_id":"POL-HR-2026-003",
+    "article_title":"Parental Leave Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Leave",
+    "content":"Employees should review the Parental Leave Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-003-03",
+    "policy_id":"POL-HR-2026-003",
+    "article_title":"Parental Leave Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Leave",
+    "content":"For questions regarding the Parental Leave Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-004-01",
+    "policy_id":"POL-HR-2026-004",
+    "article_title":"Bereavement Leave Policy - Overview",
+    "article_type":"Overview",
+    "category":"Leave",
+    "content":"The Bereavement Leave Policy defines the general guidelines, eligibility requirements, and responsibilities related to leave.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-004-02",
+    "policy_id":"POL-HR-2026-004",
+    "article_title":"Bereavement Leave Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Leave",
+    "content":"Employees should review the Bereavement Leave Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-004-03",
+    "policy_id":"POL-HR-2026-004",
+    "article_title":"Bereavement Leave Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Leave",
+    "content":"For questions regarding the Bereavement Leave Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-005-01",
+    "policy_id":"POL-HR-2026-005",
+    "article_title":"Medical Benefits Policy - Overview",
+    "article_type":"Overview",
+    "category":"Benefits",
+    "content":"The Medical Benefits Policy defines the general guidelines, eligibility requirements, and responsibilities related to benefits.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-005-02",
+    "policy_id":"POL-HR-2026-005",
+    "article_title":"Medical Benefits Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Benefits",
+    "content":"Employees should review the Medical Benefits Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-005-03",
+    "policy_id":"POL-HR-2026-005",
+    "article_title":"Medical Benefits Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Benefits",
+    "content":"For questions regarding the Medical Benefits Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-006-01",
+    "policy_id":"POL-HR-2026-006",
+    "article_title":"Health Insurance Policy - Overview",
+    "article_type":"Overview",
+    "category":"Benefits",
+    "content":"The Health Insurance Policy defines the general guidelines, eligibility requirements, and responsibilities related to benefits.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-006-02",
+    "policy_id":"POL-HR-2026-006",
+    "article_title":"Health Insurance Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Benefits",
+    "content":"Employees should review the Health Insurance Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-006-03",
+    "policy_id":"POL-HR-2026-006",
+    "article_title":"Health Insurance Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Benefits",
+    "content":"For questions regarding the Health Insurance Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-007-01",
+    "policy_id":"POL-HR-2026-007",
+    "article_title":"Dental Benefits Policy - Overview",
+    "article_type":"Overview",
+    "category":"Benefits",
+    "content":"The Dental Benefits Policy defines the general guidelines, eligibility requirements, and responsibilities related to benefits.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-007-02",
+    "policy_id":"POL-HR-2026-007",
+    "article_title":"Dental Benefits Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Benefits",
+    "content":"Employees should review the Dental Benefits Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-007-03",
+    "policy_id":"POL-HR-2026-007",
+    "article_title":"Dental Benefits Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Benefits",
+    "content":"For questions regarding the Dental Benefits Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-008-01",
+    "policy_id":"POL-HR-2026-008",
+    "article_title":"Vision Benefits Policy - Overview",
+    "article_type":"Overview",
+    "category":"Benefits",
+    "content":"The Vision Benefits Policy defines the general guidelines, eligibility requirements, and responsibilities related to benefits.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-008-02",
+    "policy_id":"POL-HR-2026-008",
+    "article_title":"Vision Benefits Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Benefits",
+    "content":"Employees should review the Vision Benefits Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-008-03",
+    "policy_id":"POL-HR-2026-008",
+    "article_title":"Vision Benefits Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Benefits",
+    "content":"For questions regarding the Vision Benefits Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-009-01",
+    "policy_id":"POL-HR-2026-009",
+    "article_title":"Payroll Processing Policy - Overview",
+    "article_type":"Overview",
+    "category":"Payroll",
+    "content":"The Payroll Processing Policy defines the general guidelines, eligibility requirements, and responsibilities related to payroll.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-009-02",
+    "policy_id":"POL-HR-2026-009",
+    "article_title":"Payroll Processing Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Payroll",
+    "content":"Employees should review the Payroll Processing Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-009-03",
+    "policy_id":"POL-HR-2026-009",
+    "article_title":"Payroll Processing Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Payroll",
+    "content":"For questions regarding the Payroll Processing Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-010-01",
+    "policy_id":"POL-HR-2026-010",
+    "article_title":"Salary Advance Policy - Overview",
+    "article_type":"Overview",
+    "category":"Payroll",
+    "content":"The Salary Advance Policy defines the general guidelines, eligibility requirements, and responsibilities related to payroll.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-010-02",
+    "policy_id":"POL-HR-2026-010",
+    "article_title":"Salary Advance Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Payroll",
+    "content":"Employees should review the Salary Advance Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-010-03",
+    "policy_id":"POL-HR-2026-010",
+    "article_title":"Salary Advance Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Payroll",
+    "content":"For questions regarding the Salary Advance Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-011-01",
+    "policy_id":"POL-HR-2026-011",
+    "article_title":"Expense Reimbursement Policy - Overview",
+    "article_type":"Overview",
+    "category":"Payroll",
+    "content":"The Expense Reimbursement Policy defines the general guidelines, eligibility requirements, and responsibilities related to payroll.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-011-02",
+    "policy_id":"POL-HR-2026-011",
+    "article_title":"Expense Reimbursement Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Payroll",
+    "content":"Employees should review the Expense Reimbursement Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-011-03",
+    "policy_id":"POL-HR-2026-011",
+    "article_title":"Expense Reimbursement Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Payroll",
+    "content":"For questions regarding the Expense Reimbursement Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-012-01",
+    "policy_id":"POL-HR-2026-012",
+    "article_title":"Employee Onboarding Policy - Overview",
+    "article_type":"Overview",
+    "category":"Onboarding",
+    "content":"The Employee Onboarding Policy defines the general guidelines, eligibility requirements, and responsibilities related to onboarding.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-012-02",
+    "policy_id":"POL-HR-2026-012",
+    "article_title":"Employee Onboarding Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Onboarding",
+    "content":"Employees should review the Employee Onboarding Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-012-03",
+    "policy_id":"POL-HR-2026-012",
+    "article_title":"Employee Onboarding Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Onboarding",
+    "content":"For questions regarding the Employee Onboarding Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-013-01",
+    "policy_id":"POL-HR-2026-013",
+    "article_title":"Background Verification Policy - Overview",
+    "article_type":"Overview",
+    "category":"Onboarding",
+    "content":"The Background Verification Policy defines the general guidelines, eligibility requirements, and responsibilities related to onboarding.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-013-02",
+    "policy_id":"POL-HR-2026-013",
+    "article_title":"Background Verification Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Onboarding",
+    "content":"Employees should review the Background Verification Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-013-03",
+    "policy_id":"POL-HR-2026-013",
+    "article_title":"Background Verification Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Onboarding",
+    "content":"For questions regarding the Background Verification Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-014-01",
+    "policy_id":"POL-HR-2026-014",
+    "article_title":"Probation Policy - Overview",
+    "article_type":"Overview",
+    "category":"Onboarding",
+    "content":"The Probation Policy defines the general guidelines, eligibility requirements, and responsibilities related to onboarding.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-014-02",
+    "policy_id":"POL-HR-2026-014",
+    "article_title":"Probation Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Onboarding",
+    "content":"Employees should review the Probation Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-014-03",
+    "policy_id":"POL-HR-2026-014",
+    "article_title":"Probation Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Onboarding",
+    "content":"For questions regarding the Probation Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-015-01",
+    "policy_id":"POL-HR-2026-015",
+    "article_title":"Remote Work Policy - Overview",
+    "article_type":"Overview",
+    "category":"Remote Work",
+    "content":"The Remote Work Policy defines the general guidelines, eligibility requirements, and responsibilities related to remote work.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-015-02",
+    "policy_id":"POL-HR-2026-015",
+    "article_title":"Remote Work Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Remote Work",
+    "content":"Employees should review the Remote Work Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-015-03",
+    "policy_id":"POL-HR-2026-015",
+    "article_title":"Remote Work Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Remote Work",
+    "content":"For questions regarding the Remote Work Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-016-01",
+    "policy_id":"POL-HR-2026-016",
+    "article_title":"Hybrid Work Policy - Overview",
+    "article_type":"Overview",
+    "category":"Remote Work",
+    "content":"The Hybrid Work Policy defines the general guidelines, eligibility requirements, and responsibilities related to remote work.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-016-02",
+    "policy_id":"POL-HR-2026-016",
+    "article_title":"Hybrid Work Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Remote Work",
+    "content":"Employees should review the Hybrid Work Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-016-03",
+    "policy_id":"POL-HR-2026-016",
+    "article_title":"Hybrid Work Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Remote Work",
+    "content":"For questions regarding the Hybrid Work Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-017-01",
+    "policy_id":"POL-HR-2026-017",
+    "article_title":"Work From Home Equipment Policy - Overview",
+    "article_type":"Overview",
+    "category":"Remote Work",
+    "content":"The Work From Home Equipment Policy defines the general guidelines, eligibility requirements, and responsibilities related to remote work.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-017-02",
+    "policy_id":"POL-HR-2026-017",
+    "article_title":"Work From Home Equipment Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Remote Work",
+    "content":"Employees should review the Work From Home Equipment Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-017-03",
+    "policy_id":"POL-HR-2026-017",
+    "article_title":"Work From Home Equipment Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Remote Work",
+    "content":"For questions regarding the Work From Home Equipment Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-018-01",
+    "policy_id":"POL-HR-2026-018",
+    "article_title":"Business Travel Policy - Overview",
+    "article_type":"Overview",
+    "category":"Travel",
+    "content":"The Business Travel Policy defines the general guidelines, eligibility requirements, and responsibilities related to travel.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-018-02",
+    "policy_id":"POL-HR-2026-018",
+    "article_title":"Business Travel Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Travel",
+    "content":"Employees should review the Business Travel Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-018-03",
+    "policy_id":"POL-HR-2026-018",
+    "article_title":"Business Travel Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Travel",
+    "content":"For questions regarding the Business Travel Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-019-01",
+    "policy_id":"POL-HR-2026-019",
+    "article_title":"Travel Reimbursement Policy - Overview",
+    "article_type":"Overview",
+    "category":"Travel",
+    "content":"The Travel Reimbursement Policy defines the general guidelines, eligibility requirements, and responsibilities related to travel.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-019-02",
+    "policy_id":"POL-HR-2026-019",
+    "article_title":"Travel Reimbursement Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Travel",
+    "content":"Employees should review the Travel Reimbursement Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-019-03",
+    "policy_id":"POL-HR-2026-019",
+    "article_title":"Travel Reimbursement Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Travel",
+    "content":"For questions regarding the Travel Reimbursement Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-020-01",
+    "policy_id":"POL-HR-2026-020",
+    "article_title":"International Travel Policy - Overview",
+    "article_type":"Overview",
+    "category":"Travel",
+    "content":"The International Travel Policy defines the general guidelines, eligibility requirements, and responsibilities related to travel.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-020-02",
+    "policy_id":"POL-HR-2026-020",
+    "article_title":"International Travel Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Travel",
+    "content":"Employees should review the International Travel Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-020-03",
+    "policy_id":"POL-HR-2026-020",
+    "article_title":"International Travel Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Travel",
+    "content":"For questions regarding the International Travel Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-021-01",
+    "policy_id":"POL-HR-2026-021",
+    "article_title":"Performance Review Policy - Overview",
+    "article_type":"Overview",
+    "category":"Performance",
+    "content":"The Performance Review Policy defines the general guidelines, eligibility requirements, and responsibilities related to performance.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-021-02",
+    "policy_id":"POL-HR-2026-021",
+    "article_title":"Performance Review Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Performance",
+    "content":"Employees should review the Performance Review Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-021-03",
+    "policy_id":"POL-HR-2026-021",
+    "article_title":"Performance Review Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Performance",
+    "content":"For questions regarding the Performance Review Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-022-01",
+    "policy_id":"POL-HR-2026-022",
+    "article_title":"Promotion Policy - Overview",
+    "article_type":"Overview",
+    "category":"Performance",
+    "content":"The Promotion Policy defines the general guidelines, eligibility requirements, and responsibilities related to performance.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-022-02",
+    "policy_id":"POL-HR-2026-022",
+    "article_title":"Promotion Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Performance",
+    "content":"Employees should review the Promotion Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-022-03",
+    "policy_id":"POL-HR-2026-022",
+    "article_title":"Promotion Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Performance",
+    "content":"For questions regarding the Promotion Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-023-01",
+    "policy_id":"POL-HR-2026-023",
+    "article_title":"Goal Setting Policy - Overview",
+    "article_type":"Overview",
+    "category":"Performance",
+    "content":"The Goal Setting Policy defines the general guidelines, eligibility requirements, and responsibilities related to performance.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-023-02",
+    "policy_id":"POL-HR-2026-023",
+    "article_title":"Goal Setting Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Performance",
+    "content":"Employees should review the Goal Setting Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-023-03",
+    "policy_id":"POL-HR-2026-023",
+    "article_title":"Goal Setting Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Performance",
+    "content":"For questions regarding the Goal Setting Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-024-01",
+    "policy_id":"POL-HR-2026-024",
+    "article_title":"Learning and Development Policy - Overview",
+    "article_type":"Overview",
+    "category":"Performance",
+    "content":"The Learning and Development Policy defines the general guidelines, eligibility requirements, and responsibilities related to performance.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-024-02",
+    "policy_id":"POL-HR-2026-024",
+    "article_title":"Learning and Development Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Performance",
+    "content":"Employees should review the Learning and Development Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-024-03",
+    "policy_id":"POL-HR-2026-024",
+    "article_title":"Learning and Development Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Performance",
+    "content":"For questions regarding the Learning and Development Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-025-01",
+    "policy_id":"POL-HR-2026-025",
+    "article_title":"Employee Code of Conduct - Overview",
+    "article_type":"Overview",
+    "category":"Employee Relations",
+    "content":"The Employee Code of Conduct defines the general guidelines, eligibility requirements, and responsibilities related to employee relations.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-025-02",
+    "policy_id":"POL-HR-2026-025",
+    "article_title":"Employee Code of Conduct - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Employee Relations",
+    "content":"Employees should review the Employee Code of Conduct requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-025-03",
+    "policy_id":"POL-HR-2026-025",
+    "article_title":"Employee Code of Conduct - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Employee Relations",
+    "content":"For questions regarding the Employee Code of Conduct, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-026-01",
+    "policy_id":"POL-HR-2026-026",
+    "article_title":"Anti-Harassment Policy - Overview",
+    "article_type":"Overview",
+    "category":"Employee Relations",
+    "content":"The Anti-Harassment Policy defines the general guidelines, eligibility requirements, and responsibilities related to employee relations.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-026-02",
+    "policy_id":"POL-HR-2026-026",
+    "article_title":"Anti-Harassment Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Employee Relations",
+    "content":"Employees should review the Anti-Harassment Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-026-03",
+    "policy_id":"POL-HR-2026-026",
+    "article_title":"Anti-Harassment Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Employee Relations",
+    "content":"For questions regarding the Anti-Harassment Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-027-01",
+    "policy_id":"POL-HR-2026-027",
+    "article_title":"Workplace Investigation Policy - Overview",
+    "article_type":"Overview",
+    "category":"Employee Relations",
+    "content":"The Workplace Investigation Policy defines the general guidelines, eligibility requirements, and responsibilities related to employee relations.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-027-02",
+    "policy_id":"POL-HR-2026-027",
+    "article_title":"Workplace Investigation Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Employee Relations",
+    "content":"Employees should review the Workplace Investigation Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-027-03",
+    "policy_id":"POL-HR-2026-027",
+    "article_title":"Workplace Investigation Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Employee Relations",
+    "content":"For questions regarding the Workplace Investigation Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-028-01",
+    "policy_id":"POL-HR-2026-028",
+    "article_title":"Disciplinary Action Policy - Overview",
+    "article_type":"Overview",
+    "category":"Employee Relations",
+    "content":"The Disciplinary Action Policy defines the general guidelines, eligibility requirements, and responsibilities related to employee relations.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-028-02",
+    "policy_id":"POL-HR-2026-028",
+    "article_title":"Disciplinary Action Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Employee Relations",
+    "content":"Employees should review the Disciplinary Action Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-028-03",
+    "policy_id":"POL-HR-2026-028",
+    "article_title":"Disciplinary Action Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Employee Relations",
+    "content":"For questions regarding the Disciplinary Action Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-029-01",
+    "policy_id":"POL-HR-2026-029",
+    "article_title":"Grievance Handling Policy - Overview",
+    "article_type":"Overview",
+    "category":"Employee Relations",
+    "content":"The Grievance Handling Policy defines the general guidelines, eligibility requirements, and responsibilities related to employee relations.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-029-02",
+    "policy_id":"POL-HR-2026-029",
+    "article_title":"Grievance Handling Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Employee Relations",
+    "content":"Employees should review the Grievance Handling Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-029-03",
+    "policy_id":"POL-HR-2026-029",
+    "article_title":"Grievance Handling Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Employee Relations",
+    "content":"For questions regarding the Grievance Handling Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-030-01",
+    "policy_id":"POL-HR-2026-030",
+    "article_title":"Data Privacy Policy - Overview",
+    "article_type":"Overview",
+    "category":"Compliance",
+    "content":"The Data Privacy Policy defines the general guidelines, eligibility requirements, and responsibilities related to compliance.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-030-02",
+    "policy_id":"POL-HR-2026-030",
+    "article_title":"Data Privacy Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Compliance",
+    "content":"Employees should review the Data Privacy Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-030-03",
+    "policy_id":"POL-HR-2026-030",
+    "article_title":"Data Privacy Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Compliance",
+    "content":"For questions regarding the Data Privacy Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-031-01",
+    "policy_id":"POL-HR-2026-031",
+    "article_title":"Information Security Policy - Overview",
+    "article_type":"Overview",
+    "category":"Compliance",
+    "content":"The Information Security Policy defines the general guidelines, eligibility requirements, and responsibilities related to compliance.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-031-02",
+    "policy_id":"POL-HR-2026-031",
+    "article_title":"Information Security Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Compliance",
+    "content":"Employees should review the Information Security Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-031-03",
+    "policy_id":"POL-HR-2026-031",
+    "article_title":"Information Security Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Compliance",
+    "content":"For questions regarding the Information Security Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-032-01",
+    "policy_id":"POL-HR-2026-032",
+    "article_title":"Acceptable Use Policy - Overview",
+    "article_type":"Overview",
+    "category":"Compliance",
+    "content":"The Acceptable Use Policy defines the general guidelines, eligibility requirements, and responsibilities related to compliance.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-032-02",
+    "policy_id":"POL-HR-2026-032",
+    "article_title":"Acceptable Use Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Compliance",
+    "content":"Employees should review the Acceptable Use Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-032-03",
+    "policy_id":"POL-HR-2026-032",
+    "article_title":"Acceptable Use Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Compliance",
+    "content":"For questions regarding the Acceptable Use Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-033-01",
+    "policy_id":"POL-HR-2026-033",
+    "article_title":"Conflict of Interest Policy - Overview",
+    "article_type":"Overview",
+    "category":"Compliance",
+    "content":"The Conflict of Interest Policy defines the general guidelines, eligibility requirements, and responsibilities related to compliance.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-033-02",
+    "policy_id":"POL-HR-2026-033",
+    "article_title":"Conflict of Interest Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Compliance",
+    "content":"Employees should review the Conflict of Interest Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-033-03",
+    "policy_id":"POL-HR-2026-033",
+    "article_title":"Conflict of Interest Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Compliance",
+    "content":"For questions regarding the Conflict of Interest Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-034-01",
+    "policy_id":"POL-HR-2026-034",
+    "article_title":"Whistleblower Policy - Overview",
+    "article_type":"Overview",
+    "category":"Compliance",
+    "content":"The Whistleblower Policy defines the general guidelines, eligibility requirements, and responsibilities related to compliance.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-034-02",
+    "policy_id":"POL-HR-2026-034",
+    "article_title":"Whistleblower Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Compliance",
+    "content":"Employees should review the Whistleblower Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-034-03",
+    "policy_id":"POL-HR-2026-034",
+    "article_title":"Whistleblower Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Compliance",
+    "content":"For questions regarding the Whistleblower Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-035-01",
+    "policy_id":"POL-HR-2026-035",
+    "article_title":"Overtime Policy - Overview",
+    "article_type":"Overview",
+    "category":"Payroll",
+    "content":"The Overtime Policy defines the general guidelines, eligibility requirements, and responsibilities related to payroll.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-035-02",
+    "policy_id":"POL-HR-2026-035",
+    "article_title":"Overtime Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Payroll",
+    "content":"Employees should review the Overtime Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-035-03",
+    "policy_id":"POL-HR-2026-035",
+    "article_title":"Overtime Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Payroll",
+    "content":"For questions regarding the Overtime Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-036-01",
+    "policy_id":"POL-HR-2026-036",
+    "article_title":"Shift Allowance Policy - Overview",
+    "article_type":"Overview",
+    "category":"Payroll",
+    "content":"The Shift Allowance Policy defines the general guidelines, eligibility requirements, and responsibilities related to payroll.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-036-02",
+    "policy_id":"POL-HR-2026-036",
+    "article_title":"Shift Allowance Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Payroll",
+    "content":"Employees should review the Shift Allowance Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-036-03",
+    "policy_id":"POL-HR-2026-036",
+    "article_title":"Shift Allowance Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Payroll",
+    "content":"For questions regarding the Shift Allowance Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-037-01",
+    "policy_id":"POL-HR-2026-037",
+    "article_title":"Employee Referral Policy - Overview",
+    "article_type":"Overview",
+    "category":"Recruitment",
+    "content":"The Employee Referral Policy defines the general guidelines, eligibility requirements, and responsibilities related to recruitment.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-037-02",
+    "policy_id":"POL-HR-2026-037",
+    "article_title":"Employee Referral Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Recruitment",
+    "content":"Employees should review the Employee Referral Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-037-03",
+    "policy_id":"POL-HR-2026-037",
+    "article_title":"Employee Referral Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Recruitment",
+    "content":"For questions regarding the Employee Referral Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-038-01",
+    "policy_id":"POL-HR-2026-038",
+    "article_title":"Internal Mobility Policy - Overview",
+    "article_type":"Overview",
+    "category":"Recruitment",
+    "content":"The Internal Mobility Policy defines the general guidelines, eligibility requirements, and responsibilities related to recruitment.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-038-02",
+    "policy_id":"POL-HR-2026-038",
+    "article_title":"Internal Mobility Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Recruitment",
+    "content":"Employees should review the Internal Mobility Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-038-03",
+    "policy_id":"POL-HR-2026-038",
+    "article_title":"Internal Mobility Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Recruitment",
+    "content":"For questions regarding the Internal Mobility Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-039-01",
+    "policy_id":"POL-HR-2026-039",
+    "article_title":"Internship Policy - Overview",
+    "article_type":"Overview",
+    "category":"Recruitment",
+    "content":"The Internship Policy defines the general guidelines, eligibility requirements, and responsibilities related to recruitment.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-039-02",
+    "policy_id":"POL-HR-2026-039",
+    "article_title":"Internship Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Recruitment",
+    "content":"Employees should review the Internship Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-039-03",
+    "policy_id":"POL-HR-2026-039",
+    "article_title":"Internship Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Recruitment",
+    "content":"For questions regarding the Internship Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-040-01",
+    "policy_id":"POL-HR-2026-040",
+    "article_title":"Contractor Engagement Policy - Overview",
+    "article_type":"Overview",
+    "category":"Recruitment",
+    "content":"The Contractor Engagement Policy defines the general guidelines, eligibility requirements, and responsibilities related to recruitment.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-040-02",
+    "policy_id":"POL-HR-2026-040",
+    "article_title":"Contractor Engagement Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Recruitment",
+    "content":"Employees should review the Contractor Engagement Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-040-03",
+    "policy_id":"POL-HR-2026-040",
+    "article_title":"Contractor Engagement Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Recruitment",
+    "content":"For questions regarding the Contractor Engagement Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-041-01",
+    "policy_id":"POL-HR-2026-041",
+    "article_title":"Flexible Working Hours Policy - Overview",
+    "article_type":"Overview",
+    "category":"Remote Work",
+    "content":"The Flexible Working Hours Policy defines the general guidelines, eligibility requirements, and responsibilities related to remote work.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-041-02",
+    "policy_id":"POL-HR-2026-041",
+    "article_title":"Flexible Working Hours Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Remote Work",
+    "content":"Employees should review the Flexible Working Hours Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-041-03",
+    "policy_id":"POL-HR-2026-041",
+    "article_title":"Flexible Working Hours Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Remote Work",
+    "content":"For questions regarding the Flexible Working Hours Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-042-01",
+    "policy_id":"POL-HR-2026-042",
+    "article_title":"Attendance Policy - Overview",
+    "article_type":"Overview",
+    "category":"Leave",
+    "content":"The Attendance Policy defines the general guidelines, eligibility requirements, and responsibilities related to leave.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-042-02",
+    "policy_id":"POL-HR-2026-042",
+    "article_title":"Attendance Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Leave",
+    "content":"Employees should review the Attendance Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-042-03",
+    "policy_id":"POL-HR-2026-042",
+    "article_title":"Attendance Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Leave",
+    "content":"For questions regarding the Attendance Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-043-01",
+    "policy_id":"POL-HR-2026-043",
+    "article_title":"Holiday Calendar Policy - Overview",
+    "article_type":"Overview",
+    "category":"Leave",
+    "content":"The Holiday Calendar Policy defines the general guidelines, eligibility requirements, and responsibilities related to leave.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-043-02",
+    "policy_id":"POL-HR-2026-043",
+    "article_title":"Holiday Calendar Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Leave",
+    "content":"Employees should review the Holiday Calendar Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-043-03",
+    "policy_id":"POL-HR-2026-043",
+    "article_title":"Holiday Calendar Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Leave",
+    "content":"For questions regarding the Holiday Calendar Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-044-01",
+    "policy_id":"POL-HR-2026-044",
+    "article_title":"Retention Bonus Policy - Overview",
+    "article_type":"Overview",
+    "category":"Benefits",
+    "content":"The Retention Bonus Policy defines the general guidelines, eligibility requirements, and responsibilities related to benefits.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-044-02",
+    "policy_id":"POL-HR-2026-044",
+    "article_title":"Retention Bonus Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Benefits",
+    "content":"Employees should review the Retention Bonus Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-044-03",
+    "policy_id":"POL-HR-2026-044",
+    "article_title":"Retention Bonus Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Benefits",
+    "content":"For questions regarding the Retention Bonus Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-045-01",
+    "policy_id":"POL-HR-2026-045",
+    "article_title":"Recognition and Rewards Policy - Overview",
+    "article_type":"Overview",
+    "category":"Benefits",
+    "content":"The Recognition and Rewards Policy defines the general guidelines, eligibility requirements, and responsibilities related to benefits.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-045-02",
+    "policy_id":"POL-HR-2026-045",
+    "article_title":"Recognition and Rewards Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Benefits",
+    "content":"Employees should review the Recognition and Rewards Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-045-03",
+    "policy_id":"POL-HR-2026-045",
+    "article_title":"Recognition and Rewards Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Benefits",
+    "content":"For questions regarding the Recognition and Rewards Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-046-01",
+    "policy_id":"POL-HR-2026-046",
+    "article_title":"Emergency Leave Policy - Overview",
+    "article_type":"Overview",
+    "category":"Leave",
+    "content":"The Emergency Leave Policy defines the general guidelines, eligibility requirements, and responsibilities related to leave.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-046-02",
+    "policy_id":"POL-HR-2026-046",
+    "article_title":"Emergency Leave Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Leave",
+    "content":"Employees should review the Emergency Leave Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-046-03",
+    "policy_id":"POL-HR-2026-046",
+    "article_title":"Emergency Leave Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Leave",
+    "content":"For questions regarding the Emergency Leave Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-047-01",
+    "policy_id":"POL-HR-2026-047",
+    "article_title":"Employee Separation Policy - Overview",
+    "article_type":"Overview",
+    "category":"Employee Relations",
+    "content":"The Employee Separation Policy defines the general guidelines, eligibility requirements, and responsibilities related to employee relations.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-047-02",
+    "policy_id":"POL-HR-2026-047",
+    "article_title":"Employee Separation Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Employee Relations",
+    "content":"Employees should review the Employee Separation Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-047-03",
+    "policy_id":"POL-HR-2026-047",
+    "article_title":"Employee Separation Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Employee Relations",
+    "content":"For questions regarding the Employee Separation Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-048-01",
+    "policy_id":"POL-HR-2026-048",
+    "article_title":"Exit Clearance Policy - Overview",
+    "article_type":"Overview",
+    "category":"Employee Relations",
+    "content":"The Exit Clearance Policy defines the general guidelines, eligibility requirements, and responsibilities related to employee relations.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-048-02",
+    "policy_id":"POL-HR-2026-048",
+    "article_title":"Exit Clearance Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Employee Relations",
+    "content":"Employees should review the Exit Clearance Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-048-03",
+    "policy_id":"POL-HR-2026-048",
+    "article_title":"Exit Clearance Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Employee Relations",
+    "content":"For questions regarding the Exit Clearance Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-049-01",
+    "policy_id":"POL-HR-2026-049",
+    "article_title":"Knowledge Transfer Policy - Overview",
+    "article_type":"Overview",
+    "category":"Employee Relations",
+    "content":"The Knowledge Transfer Policy defines the general guidelines, eligibility requirements, and responsibilities related to employee relations.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-049-02",
+    "policy_id":"POL-HR-2026-049",
+    "article_title":"Knowledge Transfer Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Employee Relations",
+    "content":"Employees should review the Knowledge Transfer Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-049-03",
+    "policy_id":"POL-HR-2026-049",
+    "article_title":"Knowledge Transfer Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Employee Relations",
+    "content":"For questions regarding the Knowledge Transfer Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-050-01",
+    "policy_id":"POL-HR-2026-050",
+    "article_title":"Manager Responsibilities Policy - Overview",
+    "article_type":"Overview",
+    "category":"Performance",
+    "content":"The Manager Responsibilities Policy defines the general guidelines, eligibility requirements, and responsibilities related to performance.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-050-02",
+    "policy_id":"POL-HR-2026-050",
+    "article_title":"Manager Responsibilities Policy - Eligibility and Process",
+    "article_type":"Eligibility and Process",
+    "category":"Performance",
+    "content":"Employees should review the Manager Responsibilities Policy requirements before submitting a request. Requests must follow the applicable HR process and required approvals.",
+    "status":"PUBLISHED"
+  },
+  {
+    "article_id":"KA-POL-HR-2026-050-03",
+    "policy_id":"POL-HR-2026-050",
+    "article_title":"Manager Responsibilities Policy - Employee Guidance",
+    "article_type":"Employee Guidance",
+    "category":"Performance",
+    "content":"For questions regarding the Manager Responsibilities Policy, employees should contact HR and refer to the current approved policy version.",
+    "status":"PUBLISHED"
+  }
+]

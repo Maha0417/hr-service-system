@@ -1,0 +1,83 @@
+{
+  "validation_status": "PASS",
+  "total_records": 5000,
+  "checks_passed": 15,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "check": "Required columns present",
+      "status": "PASS",
+      "details": "Missing columns: []"
+    },
+    {
+      "check": "One resolution record per ticket",
+      "status": "PASS",
+      "details": "Found 5000 resolutions for 5000 tickets"
+    },
+    {
+      "check": "Unique resolution IDs",
+      "status": "PASS",
+      "details": "Resolution IDs must be populated and unique"
+    },
+    {
+      "check": "No duplicate ticket resolution records",
+      "status": "PASS",
+      "details": "Each ticket may have at most one resolution record"
+    },
+    {
+      "check": "Valid ticket foreign keys",
+      "status": "PASS",
+      "details": "Unknown ticket IDs: []"
+    },
+    {
+      "check": "One record per source ticket",
+      "status": "PASS",
+      "details": "Source tickets: 5000; resolution tickets: 5000"
+    },
+    {
+      "check": "Valid policy-version foreign keys",
+      "status": "PASS",
+      "details": "Unknown version IDs: []"
+    },
+    {
+      "check": "Resolved records use current policy versions",
+      "status": "PASS",
+      "details": "Every resolved record must reference a current policy version"
+    },
+    {
+      "check": "Pending records have no applied policy version",
+      "status": "PASS",
+      "details": "Pending records must not claim a policy version was applied"
+    },
+    {
+      "check": "Pending records have no resolution timestamp",
+      "status": "PASS",
+      "details": "Pending records must have a null resolution timestamp"
+    },
+    {
+      "check": "Resolved records have timestamps",
+      "status": "PASS",
+      "details": "Resolved records require a timestamp"
+    },
+    {
+      "check": "Valid resolution timestamps",
+      "status": "PASS",
+      "details": "Invalid timestamps in resolution IDs: []"
+    },
+    {
+      "check": "Required resolution fields populated",
+      "status": "PASS",
+      "details": "Checked fields: ['resolution_id', 'ticket_id', 'resolution_type', 'resolution_status', 'outcome', 'resolution_notes', 'policy_citation']"
+    },
+    {
+      "check": "Allowed resolution statuses",
+      "status": "PASS",
+      "details": "Allowed statuses: RESOLVED, PENDING"
+    },
+    {
+      "check": "Resolved status matches message history",
+      "status": "PASS",
+      "details": "Resolved records: 500; source resolution messages: 500"
+    }
+  ]
+}

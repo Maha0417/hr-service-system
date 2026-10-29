@@ -1,0 +1,47 @@
+{
+  "validator": "employee_validator",
+  "dataset": "data\\csv\\employees.csv",
+  "total_records": 1000,
+  "checks_total": 7,
+  "checks_passed": 7,
+  "checks_failed": 0,
+  "errors": [],
+  "checks": [
+    {
+      "check": "required_columns",
+      "status": "PASS",
+      "details": "Required columns: ['employee_id', 'first_name', 'last_name', 'email', 'department_id', 'department_name', 'job_title', 'employment_type', 'employment_status', 'location', 'hire_date']"
+    },
+    {
+      "check": "employee_ids_unique_and_nonblank",
+      "status": "PASS",
+      "details": "Employee IDs must be nonblank and unique."
+    },
+    {
+      "check": "emails_nonblank_and_unique",
+      "status": "PASS",
+      "details": "Employee emails must be nonblank and unique."
+    },
+    {
+      "check": "required_values_nonblank",
+      "status": "PASS",
+      "details": "Columns containing blank values: []"
+    },
+    {
+      "check": "department_references_valid",
+      "status": "PASS",
+      "details": "Unknown department IDs: []"
+    },
+    {
+      "check": "department_names_match_ids",
+      "status": "PASS",
+      "details": "Employees with mismatched department names: []"
+    },
+    {
+      "check": "hire_dates_valid",
+      "status": "PASS",
+      "details": "Invalid hire-date row indexes: []"
+    }
+  ],
+  "status": "PASS"
+}

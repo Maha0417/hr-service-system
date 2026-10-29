@@ -1,0 +1,3583 @@
+{
+  "report_type": "READ_ONLY_ANOMALY_AUDIT",
+  "generated_at_utc": "2026-10-29T13:23:07.276784+00:00",
+  "source_datasets_modified": false,
+  "runtime_database_modified": false,
+  "total_labelled_anomalies": 200,
+  "required_anomaly_types_present": [
+    "obsolete_policy_reference",
+    "sensitive_case_routed_general_queue",
+    "sla_business_hours_error",
+    "unsupported_claim"
+  ],
+  "unexpected_anomaly_types": [],
+  "summary_by_type": {
+    "obsolete_policy_reference": {
+      "labelled": 50,
+      "MATCH": 0,
+      "MISMATCH": 45,
+      "FAIL": 0,
+      "INCONCLUSIVE": 5
+    },
+    "sensitive_case_routed_general_queue": {
+      "labelled": 50,
+      "MATCH": 0,
+      "MISMATCH": 50,
+      "FAIL": 0,
+      "INCONCLUSIVE": 0
+    },
+    "sla_business_hours_error": {
+      "labelled": 50,
+      "MATCH": 0,
+      "MISMATCH": 50,
+      "FAIL": 0,
+      "INCONCLUSIVE": 0
+    },
+    "unsupported_claim": {
+      "labelled": 50,
+      "MATCH": 0,
+      "MISMATCH": 0,
+      "FAIL": 0,
+      "INCONCLUSIVE": 50
+    }
+  },
+  "limitations": [
+    "The audit evaluates labelled cases against observed records; it does not inject or repair anomalies.",
+    "MATCH means evidence supports the specified detector condition, not that every claim in the anomaly label has been proven.",
+    "Unsupported claims require semantic comparison against policy text; citation IDs alone cannot establish support.",
+    "Assignment history is evaluated by its latest timestamp, but active assignment semantics may require additional validation.",
+    "SLA arithmetic is checked using clock hours; business calendars and holidays are not calculated."
+  ],
+  "records": [
+    {
+      "anomaly_id": "ANOM-001",
+      "ticket_id": "TKT-2026-000001",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-011-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-011-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-002",
+      "ticket_id": "TKT-2026-000002",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-047-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-047-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-003",
+      "ticket_id": "TKT-2026-000003",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-010-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-010-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-004",
+      "ticket_id": "TKT-2026-000004",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-003-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-003-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-005",
+      "ticket_id": "TKT-2026-000005",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-025-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-025-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-006",
+      "ticket_id": "TKT-2026-000006",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-012-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-012-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-007",
+      "ticket_id": "TKT-2026-000007",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-042-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-042-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-008",
+      "ticket_id": "TKT-2026-000008",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-008-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-008-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-009",
+      "ticket_id": "TKT-2026-000009",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-005-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-005-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-010",
+      "ticket_id": "TKT-2026-000010",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-002-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-002-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-011",
+      "ticket_id": "TKT-2026-000011",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-012-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-012-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-012",
+      "ticket_id": "TKT-2026-000012",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-011-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-011-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-013",
+      "ticket_id": "TKT-2026-000013",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-048-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-048-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-014",
+      "ticket_id": "TKT-2026-000014",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-003-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-003-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-015",
+      "ticket_id": "TKT-2026-000015",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-035-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-035-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-016",
+      "ticket_id": "TKT-2026-000016",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "No policy response exists to verify the citation.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-049-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-017",
+      "ticket_id": "TKT-2026-000017",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-004-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-004-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-018",
+      "ticket_id": "TKT-2026-000018",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-036-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-036-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-019",
+      "ticket_id": "TKT-2026-000019",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-044-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-044-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-020",
+      "ticket_id": "TKT-2026-000020",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-045-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-045-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-021",
+      "ticket_id": "TKT-2026-000021",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-002-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-002-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-022",
+      "ticket_id": "TKT-2026-000022",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-013-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-013-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-023",
+      "ticket_id": "TKT-2026-000023",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-01",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-002-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-002-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-024",
+      "ticket_id": "TKT-2026-000024",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-035-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-035-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-025",
+      "ticket_id": "TKT-2026-000025",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-002-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-002-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-026",
+      "ticket_id": "TKT-2026-000026",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "No policy response exists to verify the citation.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-026-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-027",
+      "ticket_id": "TKT-2026-000027",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-013-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-013-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-028",
+      "ticket_id": "TKT-2026-000028",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-014-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-014-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-029",
+      "ticket_id": "TKT-2026-000029",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-048-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-048-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-030",
+      "ticket_id": "TKT-2026-000030",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-003-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-003-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-031",
+      "ticket_id": "TKT-2026-000031",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "No policy response exists to verify the citation.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-029-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-032",
+      "ticket_id": "TKT-2026-000032",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-027-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-027-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-033",
+      "ticket_id": "TKT-2026-000033",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-009-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-009-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-034",
+      "ticket_id": "TKT-2026-000034",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-003-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-003-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-035",
+      "ticket_id": "TKT-2026-000035",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-036-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-036-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-036",
+      "ticket_id": "TKT-2026-000036",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-013-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-013-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-037",
+      "ticket_id": "TKT-2026-000037",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-036-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-036-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-038",
+      "ticket_id": "TKT-2026-000038",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "No policy response exists to verify the citation.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-026-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-039",
+      "ticket_id": "TKT-2026-000039",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-012-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-012-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-040",
+      "ticket_id": "TKT-2026-000040",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-003-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-003-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-041",
+      "ticket_id": "TKT-2026-000041",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-045-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-045-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-042",
+      "ticket_id": "TKT-2026-000042",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "No policy response exists to verify the citation.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-048-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-043",
+      "ticket_id": "TKT-2026-000043",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-007-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-007-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-044",
+      "ticket_id": "TKT-2026-000044",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-028-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-028-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-045",
+      "ticket_id": "TKT-2026-000045",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-035-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-035-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-046",
+      "ticket_id": "TKT-2026-000046",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-005-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-005-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-047",
+      "ticket_id": "TKT-2026-000047",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-02",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-043-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-043-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-048",
+      "ticket_id": "TKT-2026-000048",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-03",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-014-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-014-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-049",
+      "ticket_id": "TKT-2026-000049",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-03",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-004-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-004-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-050",
+      "ticket_id": "TKT-2026-000050",
+      "issue_type": "obsolete_policy_reference",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The expected policy version is cited and no expired version was detected.",
+      "evidence": {
+        "ticket_creation_date": "2026-01-03",
+        "cited_policy_version_ids": [
+          "VER-POL-HR-2026-036-03"
+        ],
+        "expired_or_date_invalid_versions": [],
+        "ground_truth_expected_version": "VER-POL-HR-2026-036-03",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-051",
+      "ticket_id": "TKT-2026-000002",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-052",
+      "ticket_id": "TKT-2026-000005",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-053",
+      "ticket_id": "TKT-2026-000013",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-054",
+      "ticket_id": "TKT-2026-000016",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-055",
+      "ticket_id": "TKT-2026-000026",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-056",
+      "ticket_id": "TKT-2026-000029",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-057",
+      "ticket_id": "TKT-2026-000031",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-058",
+      "ticket_id": "TKT-2026-000032",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-059",
+      "ticket_id": "TKT-2026-000038",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-060",
+      "ticket_id": "TKT-2026-000042",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-061",
+      "ticket_id": "TKT-2026-000044",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-062",
+      "ticket_id": "TKT-2026-000057",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-063",
+      "ticket_id": "TKT-2026-000060",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-064",
+      "ticket_id": "TKT-2026-000063",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-065",
+      "ticket_id": "TKT-2026-000064",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-066",
+      "ticket_id": "TKT-2026-000070",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-067",
+      "ticket_id": "TKT-2026-000073",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-068",
+      "ticket_id": "TKT-2026-000074",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-069",
+      "ticket_id": "TKT-2026-000076",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-070",
+      "ticket_id": "TKT-2026-000082",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-071",
+      "ticket_id": "TKT-2026-000085",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-072",
+      "ticket_id": "TKT-2026-000096",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-073",
+      "ticket_id": "TKT-2026-000098",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-074",
+      "ticket_id": "TKT-2026-000102",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-075",
+      "ticket_id": "TKT-2026-000104",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-076",
+      "ticket_id": "TKT-2026-000105",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-077",
+      "ticket_id": "TKT-2026-000107",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-078",
+      "ticket_id": "TKT-2026-000114",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-079",
+      "ticket_id": "TKT-2026-000119",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-080",
+      "ticket_id": "TKT-2026-000122",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-081",
+      "ticket_id": "TKT-2026-000123",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-082",
+      "ticket_id": "TKT-2026-000125",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-083",
+      "ticket_id": "TKT-2026-000126",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-084",
+      "ticket_id": "TKT-2026-000130",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-085",
+      "ticket_id": "TKT-2026-000134",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-086",
+      "ticket_id": "TKT-2026-000136",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-087",
+      "ticket_id": "TKT-2026-000137",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-088",
+      "ticket_id": "TKT-2026-000140",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-089",
+      "ticket_id": "TKT-2026-000146",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-090",
+      "ticket_id": "TKT-2026-000147",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-091",
+      "ticket_id": "TKT-2026-000149",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-092",
+      "ticket_id": "TKT-2026-000156",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-093",
+      "ticket_id": "TKT-2026-000160",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-094",
+      "ticket_id": "TKT-2026-000162",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-095",
+      "ticket_id": "TKT-2026-000163",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-096",
+      "ticket_id": "TKT-2026-000164",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-097",
+      "ticket_id": "TKT-2026-000165",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-098",
+      "ticket_id": "TKT-2026-000182",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-099",
+      "ticket_id": "TKT-2026-000183",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-100",
+      "ticket_id": "TKT-2026-000187",
+      "issue_type": "sensitive_case_routed_general_queue",
+      "severity": "CRITICAL",
+      "audit_status": "MISMATCH",
+      "reason": "The latest recorded assignment for this sensitive ticket is HR_PARTNER.",
+      "evidence": {
+        "sensitive_case": true,
+        "assignment_groups": [
+          "HR_PARTNER"
+        ],
+        "latest_recorded_assignment_group": "HR_PARTNER",
+        "expected_route": "HR_PARTNER",
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-101",
+      "ticket_id": "TKT-2026-000001",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7199.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-102",
+      "ticket_id": "TKT-2026-000002",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7198.0,
+        "resolution_target_hours": 24.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-103",
+      "ticket_id": "TKT-2026-000003",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7197.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-104",
+      "ticket_id": "TKT-2026-000004",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7196.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-105",
+      "ticket_id": "TKT-2026-000005",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7195.0,
+        "resolution_target_hours": 24.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-106",
+      "ticket_id": "TKT-2026-000006",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7194.0,
+        "resolution_target_hours": 72.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-107",
+      "ticket_id": "TKT-2026-000007",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7193.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-108",
+      "ticket_id": "TKT-2026-000008",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7192.0,
+        "resolution_target_hours": 72.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-109",
+      "ticket_id": "TKT-2026-000009",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7191.0,
+        "resolution_target_hours": 72.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-110",
+      "ticket_id": "TKT-2026-000010",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7190.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-111",
+      "ticket_id": "TKT-2026-000011",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7189.0,
+        "resolution_target_hours": 72.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-112",
+      "ticket_id": "TKT-2026-000012",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7188.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-113",
+      "ticket_id": "TKT-2026-000013",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7187.0,
+        "resolution_target_hours": 24.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-114",
+      "ticket_id": "TKT-2026-000014",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7186.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-115",
+      "ticket_id": "TKT-2026-000015",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7185.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-116",
+      "ticket_id": "TKT-2026-000016",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 0.25,
+        "resolution_target_hours": 24.0,
+        "stored_breach": false,
+        "calculated_clock_hour_breach": false,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-117",
+      "ticket_id": "TKT-2026-000017",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7183.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-118",
+      "ticket_id": "TKT-2026-000018",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7182.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-119",
+      "ticket_id": "TKT-2026-000019",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7181.0,
+        "resolution_target_hours": 72.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-120",
+      "ticket_id": "TKT-2026-000020",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7180.0,
+        "resolution_target_hours": 72.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-121",
+      "ticket_id": "TKT-2026-000021",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7179.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-122",
+      "ticket_id": "TKT-2026-000022",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7178.0,
+        "resolution_target_hours": 72.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-123",
+      "ticket_id": "TKT-2026-000023",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7177.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-124",
+      "ticket_id": "TKT-2026-000024",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7176.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-125",
+      "ticket_id": "TKT-2026-000025",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7175.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-126",
+      "ticket_id": "TKT-2026-000026",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 0.25,
+        "resolution_target_hours": 24.0,
+        "stored_breach": false,
+        "calculated_clock_hour_breach": false,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-127",
+      "ticket_id": "TKT-2026-000027",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7173.0,
+        "resolution_target_hours": 72.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-128",
+      "ticket_id": "TKT-2026-000028",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7172.0,
+        "resolution_target_hours": 72.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-129",
+      "ticket_id": "TKT-2026-000029",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7171.0,
+        "resolution_target_hours": 24.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-130",
+      "ticket_id": "TKT-2026-000030",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7170.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-131",
+      "ticket_id": "TKT-2026-000031",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 0.25,
+        "resolution_target_hours": 24.0,
+        "stored_breach": false,
+        "calculated_clock_hour_breach": false,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-132",
+      "ticket_id": "TKT-2026-000032",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7168.0,
+        "resolution_target_hours": 24.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-133",
+      "ticket_id": "TKT-2026-000033",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7167.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-134",
+      "ticket_id": "TKT-2026-000034",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7166.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-135",
+      "ticket_id": "TKT-2026-000035",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7165.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-136",
+      "ticket_id": "TKT-2026-000036",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7164.0,
+        "resolution_target_hours": 72.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-137",
+      "ticket_id": "TKT-2026-000037",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7163.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-138",
+      "ticket_id": "TKT-2026-000038",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 0.25,
+        "resolution_target_hours": 24.0,
+        "stored_breach": false,
+        "calculated_clock_hour_breach": false,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-139",
+      "ticket_id": "TKT-2026-000039",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7161.0,
+        "resolution_target_hours": 72.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-140",
+      "ticket_id": "TKT-2026-000040",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7160.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-141",
+      "ticket_id": "TKT-2026-000041",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7159.0,
+        "resolution_target_hours": 72.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-142",
+      "ticket_id": "TKT-2026-000042",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 0.25,
+        "resolution_target_hours": 24.0,
+        "stored_breach": false,
+        "calculated_clock_hour_breach": false,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-143",
+      "ticket_id": "TKT-2026-000043",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7157.0,
+        "resolution_target_hours": 72.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-144",
+      "ticket_id": "TKT-2026-000044",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7156.0,
+        "resolution_target_hours": 24.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-145",
+      "ticket_id": "TKT-2026-000045",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7155.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-146",
+      "ticket_id": "TKT-2026-000046",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7154.0,
+        "resolution_target_hours": 72.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-147",
+      "ticket_id": "TKT-2026-000047",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7153.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-148",
+      "ticket_id": "TKT-2026-000048",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7152.0,
+        "resolution_target_hours": 72.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-149",
+      "ticket_id": "TKT-2026-000049",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7151.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-150",
+      "ticket_id": "TKT-2026-000050",
+      "issue_type": "sla_business_hours_error",
+      "severity": "HIGH",
+      "audit_status": "MISMATCH",
+      "reason": "The SLA uses clock hours and its stored breach flag matches the clock-hour calculation.",
+      "evidence": {
+        "business_hours_only": false,
+        "elapsed_hours": 7150.0,
+        "resolution_target_hours": 48.0,
+        "stored_breach": true,
+        "calculated_clock_hour_breach": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-151",
+      "ticket_id": "TKT-2026-000001",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-011-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-011-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-152",
+      "ticket_id": "TKT-2026-000002",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-047-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-047-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-153",
+      "ticket_id": "TKT-2026-000003",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-010-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-010-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-154",
+      "ticket_id": "TKT-2026-000004",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 2,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-003-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-003-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-155",
+      "ticket_id": "TKT-2026-000005",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-025-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-025-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-156",
+      "ticket_id": "TKT-2026-000006",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-012-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-012-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-157",
+      "ticket_id": "TKT-2026-000007",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-042-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-042-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-158",
+      "ticket_id": "TKT-2026-000008",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-008-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-008-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-159",
+      "ticket_id": "TKT-2026-000009",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-005-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-005-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-160",
+      "ticket_id": "TKT-2026-000010",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-002-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-002-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-161",
+      "ticket_id": "TKT-2026-000011",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-012-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-012-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-162",
+      "ticket_id": "TKT-2026-000012",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-011-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-011-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-163",
+      "ticket_id": "TKT-2026-000013",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-048-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-048-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-164",
+      "ticket_id": "TKT-2026-000014",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 2,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-003-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-003-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-165",
+      "ticket_id": "TKT-2026-000015",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-035-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-035-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-166",
+      "ticket_id": "TKT-2026-000016",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "No policy response content is available for claim review.",
+      "evidence": {
+        "policy_response_count": 0,
+        "cited_policy_versions": [],
+        "expected_policy_version": "VER-POL-HR-2026-049-03",
+        "policy_response_content_available": false,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-167",
+      "ticket_id": "TKT-2026-000017",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-004-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-004-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-168",
+      "ticket_id": "TKT-2026-000018",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-036-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-036-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-169",
+      "ticket_id": "TKT-2026-000019",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-044-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-044-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-170",
+      "ticket_id": "TKT-2026-000020",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-045-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-045-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-171",
+      "ticket_id": "TKT-2026-000021",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-002-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-002-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-172",
+      "ticket_id": "TKT-2026-000022",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-013-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-013-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-173",
+      "ticket_id": "TKT-2026-000023",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 2,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-002-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-002-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-174",
+      "ticket_id": "TKT-2026-000024",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-035-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-035-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-175",
+      "ticket_id": "TKT-2026-000025",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 2,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-002-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-002-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-176",
+      "ticket_id": "TKT-2026-000026",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "No policy response content is available for claim review.",
+      "evidence": {
+        "policy_response_count": 0,
+        "cited_policy_versions": [],
+        "expected_policy_version": "VER-POL-HR-2026-026-03",
+        "policy_response_content_available": false,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-177",
+      "ticket_id": "TKT-2026-000027",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-013-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-013-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-178",
+      "ticket_id": "TKT-2026-000028",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-014-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-014-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-179",
+      "ticket_id": "TKT-2026-000029",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-048-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-048-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-180",
+      "ticket_id": "TKT-2026-000030",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-003-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-003-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-181",
+      "ticket_id": "TKT-2026-000031",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "No policy response content is available for claim review.",
+      "evidence": {
+        "policy_response_count": 0,
+        "cited_policy_versions": [],
+        "expected_policy_version": "VER-POL-HR-2026-029-03",
+        "policy_response_content_available": false,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-182",
+      "ticket_id": "TKT-2026-000032",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-027-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-027-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-183",
+      "ticket_id": "TKT-2026-000033",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-009-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-009-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-184",
+      "ticket_id": "TKT-2026-000034",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 2,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-003-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-003-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-185",
+      "ticket_id": "TKT-2026-000035",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-036-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-036-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-186",
+      "ticket_id": "TKT-2026-000036",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-013-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-013-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-187",
+      "ticket_id": "TKT-2026-000037",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-036-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-036-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-188",
+      "ticket_id": "TKT-2026-000038",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "No policy response content is available for claim review.",
+      "evidence": {
+        "policy_response_count": 0,
+        "cited_policy_versions": [],
+        "expected_policy_version": "VER-POL-HR-2026-026-03",
+        "policy_response_content_available": false,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-189",
+      "ticket_id": "TKT-2026-000039",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-012-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-012-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-190",
+      "ticket_id": "TKT-2026-000040",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-003-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-003-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-191",
+      "ticket_id": "TKT-2026-000041",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-045-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-045-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-192",
+      "ticket_id": "TKT-2026-000042",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "No policy response content is available for claim review.",
+      "evidence": {
+        "policy_response_count": 0,
+        "cited_policy_versions": [],
+        "expected_policy_version": "VER-POL-HR-2026-048-03",
+        "policy_response_content_available": false,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-193",
+      "ticket_id": "TKT-2026-000043",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-007-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-007-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-194",
+      "ticket_id": "TKT-2026-000044",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-028-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-028-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-195",
+      "ticket_id": "TKT-2026-000045",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-035-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-035-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-196",
+      "ticket_id": "TKT-2026-000046",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-005-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-005-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-197",
+      "ticket_id": "TKT-2026-000047",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-043-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-043-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-198",
+      "ticket_id": "TKT-2026-000048",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-014-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-014-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-199",
+      "ticket_id": "TKT-2026-000049",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-004-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-004-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    },
+    {
+      "anomaly_id": "ANOM-200",
+      "ticket_id": "TKT-2026-000050",
+      "issue_type": "unsupported_claim",
+      "severity": "HIGH",
+      "audit_status": "INCONCLUSIVE",
+      "reason": "A policy version is cited, but citation presence alone cannot prove that the claim is supported.",
+      "evidence": {
+        "policy_response_count": 1,
+        "cited_policy_versions": [
+          "VER-POL-HR-2026-036-03"
+        ],
+        "expected_policy_version": "VER-POL-HR-2026-036-03",
+        "policy_response_content_available": true,
+        "ticket_exists": true,
+        "ground_truth_exists": true
+      }
+    }
+  ]
+}

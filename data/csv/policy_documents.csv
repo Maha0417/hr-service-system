@@ -1,0 +1,51 @@
+policy_id,policy_name,policy_category,audience,owner_department_id,created_date,lifecycle_state
+POL-HR-2026-001,Annual Leave Policy,Leave,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-002,Sick Leave Policy,Leave,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-003,Parental Leave Policy,Leave,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-004,Bereavement Leave Policy,Leave,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-005,Medical Benefits Policy,Benefits,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-006,Health Insurance Policy,Benefits,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-007,Dental Benefits Policy,Benefits,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-008,Vision Benefits Policy,Benefits,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-009,Payroll Processing Policy,Payroll,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-010,Salary Advance Policy,Payroll,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-011,Expense Reimbursement Policy,Payroll,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-012,Employee Onboarding Policy,Onboarding,New Hires,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-013,Background Verification Policy,Onboarding,New Hires,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-014,Probation Policy,Onboarding,New Hires,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-015,Remote Work Policy,Remote Work,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-016,Hybrid Work Policy,Remote Work,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-017,Work From Home Equipment Policy,Remote Work,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-018,Business Travel Policy,Travel,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-019,Travel Reimbursement Policy,Travel,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-020,International Travel Policy,Travel,Managers,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-021,Performance Review Policy,Performance,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-022,Promotion Policy,Performance,Managers,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-023,Goal Setting Policy,Performance,Managers,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-024,Learning and Development Policy,Performance,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-025,Employee Code of Conduct,Employee Relations,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-026,Anti-Harassment Policy,Employee Relations,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-027,Workplace Investigation Policy,Employee Relations,HR,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-028,Disciplinary Action Policy,Employee Relations,HR,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-029,Grievance Handling Policy,Employee Relations,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-030,Data Privacy Policy,Compliance,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-031,Information Security Policy,Compliance,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-032,Acceptable Use Policy,Compliance,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-033,Conflict of Interest Policy,Compliance,Managers,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-034,Whistleblower Policy,Compliance,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-035,Overtime Policy,Payroll,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-036,Shift Allowance Policy,Payroll,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-037,Employee Referral Policy,Recruitment,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-038,Internal Mobility Policy,Recruitment,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-039,Internship Policy,Recruitment,Managers,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-040,Contractor Engagement Policy,Recruitment,Managers,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-041,Flexible Working Hours Policy,Remote Work,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-042,Attendance Policy,Leave,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-043,Holiday Calendar Policy,Leave,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-044,Retention Bonus Policy,Benefits,Managers,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-045,Recognition and Rewards Policy,Benefits,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-046,Emergency Leave Policy,Leave,All Employees,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-047,Employee Separation Policy,Employee Relations,HR,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-048,Exit Clearance Policy,Employee Relations,HR,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-049,Knowledge Transfer Policy,Employee Relations,Managers,DEP-001,2026-01-01,ACTIVE
+POL-HR-2026-050,Manager Responsibilities Policy,Performance,Managers,DEP-001,2026-01-01,ACTIVE

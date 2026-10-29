@@ -1,0 +1,6 @@
+category_id,category_name,sensitive_flag,default_queue,active_flag
+CAT-001,Benefits,N,BENEFITS_TEAM,Y
+CAT-002,Leave,N,LEAVE_TEAM,Y
+CAT-003,Payroll,N,PAYROLL_TEAM,Y
+CAT-004,Onboarding,N,ONBOARDING_TEAM,Y
+CAT-005,Employee Relations,Y,HR_PARTNER,Y

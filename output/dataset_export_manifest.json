@@ -1,0 +1,225 @@
+{
+  "dataset_count": 14,
+  "exports": {
+    "departments": {
+      "records": 10,
+      "columns": [
+        "department_id",
+        "department_name"
+      ],
+      "json_file": "data/json/departments.json",
+      "sql_table": "departments"
+    },
+    "employees": {
+      "records": 1000,
+      "columns": [
+        "employee_id",
+        "first_name",
+        "last_name",
+        "email",
+        "department_id",
+        "department_name",
+        "job_title",
+        "employment_type",
+        "employment_status",
+        "location",
+        "hire_date"
+      ],
+      "json_file": "data/json/employees.json",
+      "sql_table": "employees"
+    },
+    "categories": {
+      "records": 5,
+      "columns": [
+        "category_id",
+        "category_name",
+        "sensitive_flag",
+        "default_queue",
+        "active_flag"
+      ],
+      "json_file": "data/json/categories.json",
+      "sql_table": "categories"
+    },
+    "policy_documents": {
+      "records": 50,
+      "columns": [
+        "policy_id",
+        "policy_name",
+        "policy_category",
+        "audience",
+        "owner_department_id",
+        "created_date",
+        "lifecycle_state"
+      ],
+      "json_file": "data/json/policy_documents.json",
+      "sql_table": "policy_documents"
+    },
+    "policy_versions": {
+      "records": 150,
+      "columns": [
+        "version_id",
+        "policy_id",
+        "version_number",
+        "effective_date",
+        "expiration_date",
+        "is_current",
+        "status",
+        "change_summary"
+      ],
+      "json_file": "data/json/policy_versions.json",
+      "sql_table": "policy_versions"
+    },
+    "knowledge_articles": {
+      "records": 150,
+      "columns": [
+        "article_id",
+        "policy_id",
+        "article_title",
+        "article_type",
+        "category",
+        "content",
+        "status"
+      ],
+      "json_file": "data/json/knowledge_articles.json",
+      "sql_table": "knowledge_articles"
+    },
+    "tickets": {
+      "records": 5000,
+      "columns": [
+        "ticket_id",
+        "scenario_type",
+        "employee_id",
+        "category_id",
+        "policy_id",
+        "ticket_subject",
+        "ticket_description",
+        "priority",
+        "ticket_status",
+        "sensitive_flag",
+        "requires_clarification",
+        "created_timestamp",
+        "current_assignment_group",
+        "lifecycle_state"
+      ],
+      "json_file": "data/json/tickets.json",
+      "sql_table": "tickets"
+    },
+    "messages": {
+      "records": 23000,
+      "columns": [
+        "message_id",
+        "ticket_id",
+        "sender_type",
+        "message_type",
+        "policy_version_id",
+        "sent_timestamp",
+        "message_content",
+        "lifecycle_state"
+      ],
+      "json_file": "data/json/messages.json",
+      "sql_table": "messages"
+    },
+    "assignments": {
+      "records": 5500,
+      "columns": [
+        "assignment_id",
+        "ticket_id",
+        "assigned_group",
+        "assigned_to",
+        "assignment_reason",
+        "assigned_timestamp",
+        "assignment_status",
+        "previous_assignment_id"
+      ],
+      "json_file": "data/json/assignments.json",
+      "sql_table": "assignments"
+    },
+    "sla_records": {
+      "records": 5000,
+      "columns": [
+        "sla_id",
+        "ticket_id",
+        "priority",
+        "response_target_hours",
+        "resolution_target_hours",
+        "business_hours_only",
+        "created_timestamp",
+        "first_response_timestamp",
+        "resolved_timestamp",
+        "elapsed_hours",
+        "sla_breached",
+        "breach_reason"
+      ],
+      "json_file": "data/json/sla_records.json",
+      "sql_table": "sla_records"
+    },
+    "resolutions": {
+      "records": 5000,
+      "columns": [
+        "resolution_id",
+        "ticket_id",
+        "policy_version_id",
+        "resolution_type",
+        "resolution_status",
+        "resolved_by",
+        "resolved_timestamp",
+        "outcome",
+        "resolution_notes",
+        "policy_citation"
+      ],
+      "json_file": "data/json/resolutions.json",
+      "sql_table": "resolutions"
+    },
+    "ticket_events": {
+      "records": 29000,
+      "columns": [
+        "event_id",
+        "ticket_id",
+        "old_state",
+        "new_state",
+        "event_timestamp",
+        "event_type",
+        "event_reason",
+        "event_source",
+        "related_message_id",
+        "related_assignment_id"
+      ],
+      "json_file": "data/json/ticket_events.json",
+      "sql_table": "ticket_events"
+    },
+    "ground_truth": {
+      "records": 5000,
+      "columns": [
+        "ground_truth_id",
+        "entity_type",
+        "entity_id",
+        "issue_type",
+        "expected_category",
+        "expected_route",
+        "expected_policy_version",
+        "expected_sla_status",
+        "expected_resolution_status",
+        "expected_clarification",
+        "severity"
+      ],
+      "json_file": "data/json/ground_truth.json",
+      "sql_table": "ground_truth"
+    },
+    "anomalies": {
+      "records": 200,
+      "columns": [
+        "anomaly_id",
+        "entity_type",
+        "entity_id",
+        "issue_type",
+        "expected_outcome",
+        "actual_outcome",
+        "severity",
+        "ground_truth_id"
+      ],
+      "json_file": "data/json/anomalies.json",
+      "sql_table": "anomalies"
+    }
+  },
+  "sqlite_database": "data/sql/hr_service_system.sqlite"
+}

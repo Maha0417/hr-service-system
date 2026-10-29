@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Editors and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files and backups
+*.tmp
+*.bak
+
+# Local runtime history
+data/runtime/
+
+# Historical dataset backups
+data/csv/*_backup.csv
+data/csv/*_pre_*_backup.csv
+
+# SQLite recovery backup
+data/sql/hr_service_system.pre_recovery_backup.sqlite
+
+# Generated application logs
+output/logs/*.log

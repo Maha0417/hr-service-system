@@ -1,0 +1,62 @@
+{
+  "validator": "message_validator",
+  "dataset": "data\\csv\\messages.csv",
+  "total_records": 23000,
+  "checks_total": 10,
+  "checks_passed": 10,
+  "checks_failed": 0,
+  "errors": [],
+  "checks": [
+    {
+      "check": "required_columns",
+      "status": "PASS",
+      "details": "Required columns: ['message_id', 'ticket_id', 'sender_type', 'message_type', 'policy_version_id', 'sent_timestamp', 'message_content', 'lifecycle_state']"
+    },
+    {
+      "check": "message_ids_unique_and_nonblank",
+      "status": "PASS",
+      "details": "Message IDs must be nonblank and unique."
+    },
+    {
+      "check": "message_dataset_not_empty",
+      "status": "PASS",
+      "details": "Found 23000 messages."
+    },
+    {
+      "check": "ticket_references_valid",
+      "status": "PASS",
+      "details": "Unknown ticket IDs: []; blank references: 0"
+    },
+    {
+      "check": "policy_response_version_references_valid",
+      "status": "PASS",
+      "details": "Unknown policy version IDs: []"
+    },
+    {
+      "check": "sender_types_valid",
+      "status": "PASS",
+      "details": "Unexpected sender types: []"
+    },
+    {
+      "check": "message_types_valid",
+      "status": "PASS",
+      "details": "Unexpected message types: []"
+    },
+    {
+      "check": "message_content_nonblank",
+      "status": "PASS",
+      "details": "Messages with blank content: 0"
+    },
+    {
+      "check": "sent_timestamps_valid",
+      "status": "PASS",
+      "details": "Invalid timestamp row indexes: []"
+    },
+    {
+      "check": "lifecycle_states_nonblank",
+      "status": "PASS",
+      "details": "Messages with blank lifecycle states: 0"
+    }
+  ],
+  "status": "PASS"
+}

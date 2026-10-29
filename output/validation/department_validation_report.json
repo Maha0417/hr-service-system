@@ -1,0 +1,32 @@
+{
+  "validator": "department_validator",
+  "dataset": "data\\csv\\departments.csv",
+  "total_records": 10,
+  "checks_total": 4,
+  "checks_passed": 4,
+  "checks_failed": 0,
+  "errors": [],
+  "checks": [
+    {
+      "check": "required_columns",
+      "status": "PASS",
+      "details": "Required columns: ['department_id', 'department_name']"
+    },
+    {
+      "check": "dataset_not_empty",
+      "status": "PASS",
+      "details": "Found 10 departments."
+    },
+    {
+      "check": "department_ids_unique_and_nonblank",
+      "status": "PASS",
+      "details": "Department IDs must be nonblank and unique."
+    },
+    {
+      "check": "department_names_nonblank",
+      "status": "PASS",
+      "details": "Department names must not be blank."
+    }
+  ],
+  "status": "PASS"
+}

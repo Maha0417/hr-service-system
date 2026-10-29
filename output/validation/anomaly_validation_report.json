@@ -1,0 +1,92 @@
+{
+  "validator": "anomaly_validator",
+  "dataset": "data/csv/anomalies.csv",
+  "total_anomalies": 200,
+  "anomaly_type_counts": {
+    "obsolete_policy_reference": 50,
+    "sensitive_case_routed_general_queue": 50,
+    "sla_business_hours_error": 50,
+    "unsupported_claim": 50
+  },
+  "checks_total": 15,
+  "checks_passed": 15,
+  "checks_failed": 0,
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "check": "required_columns",
+      "status": "PASS",
+      "details": "All required columns exist."
+    },
+    {
+      "check": "expected_record_count",
+      "status": "PASS",
+      "details": "Found 200 records; expected 200."
+    },
+    {
+      "check": "all_anomaly_types_present",
+      "status": "PASS",
+      "details": "Found types: ['obsolete_policy_reference', 'sensitive_case_routed_general_queue', 'sla_business_hours_error', 'unsupported_claim']"
+    },
+    {
+      "check": "expected_count_per_type",
+      "status": "PASS",
+      "details": "Expected 50 per type; counts: {'obsolete_policy_reference': 50, 'sensitive_case_routed_general_queue': 50, 'sla_business_hours_error': 50, 'unsupported_claim': 50}"
+    },
+    {
+      "check": "anomaly_ids_unique_and_nonblank",
+      "status": "PASS",
+      "details": "Anomaly IDs are unique and nonblank."
+    },
+    {
+      "check": "valid_entity_references",
+      "status": "PASS",
+      "details": "All anomalies reference existing tickets."
+    },
+    {
+      "check": "ground_truth_links_valid",
+      "status": "PASS",
+      "details": "Every Ground Truth ID exists and matches its ticket."
+    },
+    {
+      "check": "expected_actual_outcomes_differ",
+      "status": "PASS",
+      "details": "Every anomaly has distinct, nonblank expected and actual outcomes."
+    },
+    {
+      "check": "obsolete_versions_exist_and_are_expired",
+      "status": "PASS",
+      "details": "All five anomalies reference expired versions of the same policy whose expected version is current."
+    },
+    {
+      "check": "sensitive_routing_anomalies_valid",
+      "status": "PASS",
+      "details": "All five anomalies concern sensitive Employee Relations tickets expected to route to HR_PARTNER but incorrectly routed to BENEFITS_TEAM."
+    },
+    {
+      "check": "sla_business_hours_rule_violation_documented",
+      "status": "PASS",
+      "details": "All five anomalies describe incorrectly excluding non-business hours where the source rule counts all elapsed hours."
+    },
+    {
+      "check": "unsupported_claims_marked",
+      "status": "PASS",
+      "details": "All five claims are explicitly marked as lacking a supporting policy citation."
+    },
+    {
+      "check": "severity_values_nonblank",
+      "status": "PASS",
+      "details": "Every anomaly has a severity."
+    },
+    {
+      "check": "ground_truth_entity_types_valid",
+      "status": "PASS",
+      "details": "All linked Ground Truth records describe tickets."
+    },
+    {
+      "check": "expected_outcomes_grounded_in_sources",
+      "status": "PASS",
+      "details": "Expected outcomes are linked to Ground Truth or the applicable SLA rule."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "validation_status": "PASS",
+  "event_count": 29000,
+  "unique_ticket_count": 5000,
+  "checks_passed": 19,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "check": "required_columns",
+      "status": "PASS",
+      "details": "Missing columns: []"
+    },
+    {
+      "check": "event_ids_unique",
+      "status": "PASS",
+      "details": "29000 unique IDs / 29000 events"
+    },
+    {
+      "check": "ticket_foreign_keys",
+      "status": "PASS",
+      "details": "Every event references an existing ticket."
+    },
+    {
+      "check": "message_foreign_keys",
+      "status": "PASS",
+      "details": "Invalid message IDs: []"
+    },
+    {
+      "check": "assignment_foreign_keys",
+      "status": "PASS",
+      "details": "Invalid assignment IDs: []"
+    },
+    {
+      "check": "event_types_present",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "event_reasons_present",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "event_sources_present",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "timestamps_valid",
+      "status": "PASS",
+      "details": "Invalid timestamps: 0"
+    },
+    {
+      "check": "lifecycle_states_valid",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "one_initial_open_event_per_ticket",
+      "status": "PASS",
+      "details": "Missing: []; incorrect counts: []"
+    },
+    {
+      "check": "legal_chronological_state_transitions",
+      "status": "PASS",
+      "details": "Errors: []"
+    },
+    {
+      "check": "timestamps_non_decreasing_per_ticket",
+      "status": "PASS",
+      "details": "Tickets with backwards timestamps: []"
+    },
+    {
+      "check": "resolution_events_match_source",
+      "status": "PASS",
+      "details": "Missing: []; unexpected: []; duplicates: []"
+    },
+    {
+      "check": "pending_tickets_not_resolved",
+      "status": "PASS",
+      "details": "Incorrectly resolved: []"
+    },
+    {
+      "check": "closure_events_supported",
+      "status": "PASS",
+      "details": "Unexpected CLOSED events: []"
+    },
+    {
+      "check": "resolution_timestamps_match_source",
+      "status": "PASS",
+      "details": "Mismatches: []"
+    },
+    {
+      "check": "expected_event_volume",
+      "status": "PASS",
+      "details": "Event count: 29000 for 5000 tickets; expected at least one event per ticket."
+    },
+    {
+      "check": "all_tickets_covered",
+      "status": "PASS",
+      "details": "Covered 5000 of 5000 tickets"
+    }
+  ]
+}

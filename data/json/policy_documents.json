@@ -1,0 +1,452 @@
+[
+  {
+    "policy_id":"POL-HR-2026-001",
+    "policy_name":"Annual Leave Policy",
+    "policy_category":"Leave",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-002",
+    "policy_name":"Sick Leave Policy",
+    "policy_category":"Leave",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-003",
+    "policy_name":"Parental Leave Policy",
+    "policy_category":"Leave",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-004",
+    "policy_name":"Bereavement Leave Policy",
+    "policy_category":"Leave",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-005",
+    "policy_name":"Medical Benefits Policy",
+    "policy_category":"Benefits",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-006",
+    "policy_name":"Health Insurance Policy",
+    "policy_category":"Benefits",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-007",
+    "policy_name":"Dental Benefits Policy",
+    "policy_category":"Benefits",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-008",
+    "policy_name":"Vision Benefits Policy",
+    "policy_category":"Benefits",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-009",
+    "policy_name":"Payroll Processing Policy",
+    "policy_category":"Payroll",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-010",
+    "policy_name":"Salary Advance Policy",
+    "policy_category":"Payroll",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-011",
+    "policy_name":"Expense Reimbursement Policy",
+    "policy_category":"Payroll",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-012",
+    "policy_name":"Employee Onboarding Policy",
+    "policy_category":"Onboarding",
+    "audience":"New Hires",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-013",
+    "policy_name":"Background Verification Policy",
+    "policy_category":"Onboarding",
+    "audience":"New Hires",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-014",
+    "policy_name":"Probation Policy",
+    "policy_category":"Onboarding",
+    "audience":"New Hires",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-015",
+    "policy_name":"Remote Work Policy",
+    "policy_category":"Remote Work",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-016",
+    "policy_name":"Hybrid Work Policy",
+    "policy_category":"Remote Work",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-017",
+    "policy_name":"Work From Home Equipment Policy",
+    "policy_category":"Remote Work",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-018",
+    "policy_name":"Business Travel Policy",
+    "policy_category":"Travel",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-019",
+    "policy_name":"Travel Reimbursement Policy",
+    "policy_category":"Travel",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-020",
+    "policy_name":"International Travel Policy",
+    "policy_category":"Travel",
+    "audience":"Managers",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-021",
+    "policy_name":"Performance Review Policy",
+    "policy_category":"Performance",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-022",
+    "policy_name":"Promotion Policy",
+    "policy_category":"Performance",
+    "audience":"Managers",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-023",
+    "policy_name":"Goal Setting Policy",
+    "policy_category":"Performance",
+    "audience":"Managers",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-024",
+    "policy_name":"Learning and Development Policy",
+    "policy_category":"Performance",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-025",
+    "policy_name":"Employee Code of Conduct",
+    "policy_category":"Employee Relations",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-026",
+    "policy_name":"Anti-Harassment Policy",
+    "policy_category":"Employee Relations",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-027",
+    "policy_name":"Workplace Investigation Policy",
+    "policy_category":"Employee Relations",
+    "audience":"HR",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-028",
+    "policy_name":"Disciplinary Action Policy",
+    "policy_category":"Employee Relations",
+    "audience":"HR",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-029",
+    "policy_name":"Grievance Handling Policy",
+    "policy_category":"Employee Relations",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-030",
+    "policy_name":"Data Privacy Policy",
+    "policy_category":"Compliance",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-031",
+    "policy_name":"Information Security Policy",
+    "policy_category":"Compliance",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-032",
+    "policy_name":"Acceptable Use Policy",
+    "policy_category":"Compliance",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-033",
+    "policy_name":"Conflict of Interest Policy",
+    "policy_category":"Compliance",
+    "audience":"Managers",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-034",
+    "policy_name":"Whistleblower Policy",
+    "policy_category":"Compliance",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-035",
+    "policy_name":"Overtime Policy",
+    "policy_category":"Payroll",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-036",
+    "policy_name":"Shift Allowance Policy",
+    "policy_category":"Payroll",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-037",
+    "policy_name":"Employee Referral Policy",
+    "policy_category":"Recruitment",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-038",
+    "policy_name":"Internal Mobility Policy",
+    "policy_category":"Recruitment",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-039",
+    "policy_name":"Internship Policy",
+    "policy_category":"Recruitment",
+    "audience":"Managers",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-040",
+    "policy_name":"Contractor Engagement Policy",
+    "policy_category":"Recruitment",
+    "audience":"Managers",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-041",
+    "policy_name":"Flexible Working Hours Policy",
+    "policy_category":"Remote Work",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-042",
+    "policy_name":"Attendance Policy",
+    "policy_category":"Leave",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-043",
+    "policy_name":"Holiday Calendar Policy",
+    "policy_category":"Leave",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-044",
+    "policy_name":"Retention Bonus Policy",
+    "policy_category":"Benefits",
+    "audience":"Managers",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-045",
+    "policy_name":"Recognition and Rewards Policy",
+    "policy_category":"Benefits",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-046",
+    "policy_name":"Emergency Leave Policy",
+    "policy_category":"Leave",
+    "audience":"All Employees",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-047",
+    "policy_name":"Employee Separation Policy",
+    "policy_category":"Employee Relations",
+    "audience":"HR",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-048",
+    "policy_name":"Exit Clearance Policy",
+    "policy_category":"Employee Relations",
+    "audience":"HR",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-049",
+    "policy_name":"Knowledge Transfer Policy",
+    "policy_category":"Employee Relations",
+    "audience":"Managers",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  },
+  {
+    "policy_id":"POL-HR-2026-050",
+    "policy_name":"Manager Responsibilities Policy",
+    "policy_category":"Performance",
+    "audience":"Managers",
+    "owner_department_id":"DEP-001",
+    "created_date":"2026-01-01",
+    "lifecycle_state":"ACTIVE"
+  }
+]
